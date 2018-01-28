@@ -1,0 +1,50 @@
+*{margin: 0;padding: 0;}
+html,body{margin:0 auto;padding:0 auto;
+font-family:"Microsoft YaHei",微软雅黑,"Microsoft JhengHei",华文细黑,STHeiti,MingLiu,"SimSun",宋体;}
+a{text-decoration: none;}
+li{list-style: none;}
+/*public style*/
+.banner,.tab{width: 100%;}
+.tab_title,.footer div{width: 1000px;}
+.banner_main,.tab_big,.link_big,.foooter_big,.navbig{width: 1452px;}
+.banner_main,.banner_img,.tab_big,.link_big,.tab_main,.tab_title,.tab_body,.footer div,.foooter_big,.navbig{margin: 0 auto;}
+.tab_title li>span{font-family:"SimSun",宋体;}
+.tab{margin-top: 20px;}
+/*banner*/
+.banner{overflow:hidden;margin: 4px 0;}
+.banner_main{background: url(../img/yuanxun.png) 0% center no-repeat,url(../img/tieta3.png) 100% center no-repeat;}
+.banner_img,.banner_img img{width: 1000px;border-radius: 10px;}
+.banner,.banner_main,.banner_img,.banner_img img{height: 420px;}
+.banner_img{position: relative;}
+.banner_img a{position: absolute;top: 0;left: 0;display: none;float: left;}
+.banner_img a:first-of-type{display: block;}
+/*imgleft&imgright*/
+.imgleft,.imgright{width: 226px;height: 402px;}
+.imgleft{float: left;}
+.imgright{float: right;}
+/*tab*/
+.tab{height: 326px;}
+.tab_title,.tab_title li,.tab_title li span{height: 55px;}
+.tab_title{/*background-color: #BFBFBF;*/}
+.tab_title li{text-align:center;float: left;cursor: pointer;background: url(../img/back3.jpg)center center no-repeat;}
+.tab_title li span{width: 200px;line-height: 55px;font-size: 20px;display: block;}
+.tab_body,.tab_body .tab_main{width:978px;height: 255px;}
+.tab_body{border-width:0px 1px 1px 1px;border-style: none solid solid solid;border-color: #00489D;padding: 10px;overflow: hidden;}
+.tab_img,.tab_img img{width: 420px;height: 250px;}
+.tab_img{float:left;position: relative;margin-right: 10px; }
+.tab_img a{position: absolute;top: 0;left: 0;display: none;}
+.tab_img a:first-of-type{display: block;}
+.tab_mian ul{width: 520px;height: 210px;float: right;}
+.tab_mian ul li{height: 30px;line-height: 30px;width: 100%;}
+.tab_main ul li:hover{background: #DCDCDC;color: #EB6101;}
+.tab_mian ul li a{color: #000;}
+.tab_mian ul li a:hover{color: #EB6101;}
+.tab_mian ul li font{float: right;}
+.tab_main1,.tab_main2,.tab_main3,.tab_main4,.tab_main0{display: none;}
+.more{float: right;font-size: 16px;color: #EB6101;}
+/*activ*/
+.tab_title .active{background: url(../img/logoicon.png)left center no-repeat;background-color: #002E73;color: #fff;}
+.act{display: block;}
+
+
+
