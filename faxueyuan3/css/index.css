@@ -27,14 +27,14 @@ li{list-style: none;}
 .tab .tab_main:first-of-type{margin-left:18px;}
 .tab_main{float: left;width: 310px;margin-right:17px;}
 .tab_main ul{margin-top: 20px;}
-.tab_main ul li{min-height:40px;line-height:20px;border-bottom: 1px solid #E4E8E0;padding:10px 0}
+.tab_main ul li{min-height:40px;line-height:20px;border-bottom: 1px solid #CED1D6;padding:10px 0}
 .tab_main ul li font{float: right;margin-right:10px;}
 .tab_main ul li>a{color: #000;}
-.tab_main ul li font,.tab_main ul li>a{font-size: .9em;}
+.tab_main ul li font,.tab_main ul li>a{font-size: 14px;}
 .tab_main ul li:hover,.tab_main ul li>a:hover{background: #fff;color: #EB6101;}
 .tab_title,.tab_main ul li{width: 100%;}
 .tab_title{font-family:"SimSun",宋体;color: #00489D;height:30px;line-height:30px;height:30px;border-bottom: 1px solid #0D418C;}
-.tab_title h2{float: left;margin-left:10px;}
+.tab_title h2{float: left;margin-left:10px;font-size: 20px;}
 .tab_title a{float: right;margin-right:20px;}
 
 /* .tab_title,.tab_title li,.tab_title li span{height: 55px;}
