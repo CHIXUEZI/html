@@ -14,13 +14,13 @@ li{list-style: none;}
 .head img{margin-top: 10px;}
 /*nav*/
 
-.nav ul li,.navul{height: 40px;/*background-color: #fff;*/}
+.nav ul li,.navul{height: 43px;/*background-color: #fff;*/}
 /*.nav ul li ul li{background-color: #DCDCDC;}*/
 .nav{background: url(../img/back4.png)center repeat-x;}
 .navul{width:996px;max-width:996px;}
 .navul,.navul ul{margin: 0 auto;border:2px solid #00A1E9;background: url(../img/back5.png)center repeat;}
 .navul>li{width: 99px;max-width: 99px;line-height: 40px;}
-.navul li a{display: block; color: #000;text-align: center;}
+.navul li a{display: block; color: #000;text-align: center;font-size: 1em;}
 .navul,.navul>li:hover,.navul li a:hover,.navul li ul li:hover,.navul ul{border-radius: 10px;}
 .navul li a:hover{color: #fff;}
 .navul li:hover{background: #323232;}
@@ -29,8 +29,8 @@ li{list-style: none;}
 #border{border-left: 1px solid #fff;}*/
 .navul>li>ul:hover{border-top: 2px solid #BFBFBF;}
 .navul>li>ul{position: relative;top: 0;left: 0;display: none;z-index: 1;}
-.navul li ul li{font-size: 12px;width: 96px;max-width: 96px;}
-#lineheight{line-height: 20px;}
+.navul li ul li{font-size: .9em;width: 96px;max-width: 96px;}
+.lineheight{line-height: 20px;}
 /*link*/
 .link{height: 200px;background-color: #DCDCDC;background: url(../img/qiqiu.png)center center no-repeat;}
 .link_title{line-height: 30px;height:30px;border-top: 2px solid #00489D;}
