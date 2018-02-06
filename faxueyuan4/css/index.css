@@ -30,8 +30,8 @@ li{list-style: none;}
 .tab_main ul li{min-height:40px;line-height:20px;border-bottom: 1px solid #CED1D6;padding:10px 0}
 .tab_main ul li font{float: right;margin-right:10px;}
 .tab_main ul li>a{color: #000;}
-.tab_main ul li font,.tab_main ul li>a{font-size: 1.1em;}
-.tab_main ul li:hover,.tab_main ul li>a:hover{background: #fff;color: #EB6101;}
+.tab_main ul li font,.tab_main ul li>a,.xsgg .title{font-size: 1.1em;}
+.tab_main ul li:hover,.tab_main ul li>a:hover,.xsgg .title a:hover{background: #fff;color: #EB6101;}
 .tab_title,.tab_main ul li,.tab_img,.tab_img img{width: 100%;}
 .tab_title{font-family:"SimSun",宋体;color: #00489D;height:30px;line-height:30px;height:30px;border-bottom: 1px solid #0D418C;}
 .tab_title h2{float: left;margin-left:10px;font-size: 20px;}
@@ -41,6 +41,11 @@ li{list-style: none;}
 .tab_img a{position: absolute;}
 #another li{margin:0;padding: 15px 5px;border:none;}
 #another li:hover,#another li a:hover{background: none;}
+.xsgg .time{background: #00489D;float: left;overflow:hidden;margin:0 10px;}
+.xsgg .time span{display: block;text-align: center;padding:2px 5px;}
+.xsgg .time span:first-of-type{border-bottom:1px solid  #efefef;color: #fff;font-size: 1.2em;}
+.xsgg .time span:last-of-type{background:#fff;font-size:0.8em;color:#00489D;}
+.xsgg .title a{color: #000;}
 /* .tab_title,.tab_title li,.tab_title li span{height: 55px;}
 .tab_title{/*background-color: #BFBFBF;}
 .tab_title li{text-align:center;float: left;cursor: pointer;background: url(../img/back3.jpg)center center no-repeat;}
