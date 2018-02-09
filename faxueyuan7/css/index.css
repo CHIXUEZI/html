@@ -1,0 +1,55 @@
+*{margin: 0;padding: 0;}
+html,body{margin:0 auto;padding:0 auto;
+font-family:"Microsoft YaHei",微软雅黑,"Microsoft JhengHei",华文细黑,STHeiti,MingLiu,"SimSun",宋体;}
+a{text-decoration: none;}
+li{list-style: none;}
+/*public style*/
+.banner{width: 100%;}
+.tab_title,.tab{width: 1000px;}
+.banner_main,.tab_big,.link_big,.foooter_big,.navbig{width: 1452px;}
+.banner_main,.banner_img,.tab_big,.tab_main,.tab_title,.tab_body,.tab{margin: 0 auto;}
+
+.tab{margin-top: 20px;}
+/*banner*/
+.banner{overflow:hidden;margin: 4px 0;}
+.banner_main{background: url(../img/yuanxun.png) 0% center no-repeat,url(../img/tieta3.png) 100% center no-repeat;}
+.banner_img,.banner_img img{width: 1000px;border-radius: 10px;}
+.banner,.banner_main,.banner_img,.banner_img img{height: 420px;}
+.banner_img{position: relative;}
+.banner_img a{position: absolute;top: 0;left: 0;display: none;float: left;}
+.banner_img a:first-of-type{display: block;}
+/*imgleft&imgright*/
+.imgleft,.imgright{width: 226px;height: 402px;}
+.imgleft{float: left;}
+.imgright{float: right;}
+/*tab*/
+.tab{overflow: hidden;}
+.tab .tab_main:first-of-type{margin-left:18px;}
+.tab_main{float: left;width: 310px;margin-right:17px;}
+.tab_main ul{margin-top: 20px;}
+.tab_main ul li{min-height:40px;line-height:20px;border-bottom: 1px solid #CED1D6;padding:10px 0}
+.tab_main ul li font{float: right;margin-right:10px;}
+.tab_main ul li>a{color: #000;}
+.tab_main ul li font,.tab_main ul li>a,.xsgg .title{font-size: 1em;}
+.tab_main ul li:hover,.tab_main ul li>a:hover,.xsgg .title a:hover{background: #fff;color: #EB6101;}
+.tab_title,.tab_main ul li,.tab_img,.tab_img img{width: 100%;}
+.tab_title{font-family:"SimSun",宋体;color: #00489D;height:30px;line-height:30px;height:30px;border-bottom: 1px solid #0D418C;}
+.tab_title h2{float: left;margin-left:10px;font-size: 20px;}
+.tab_title a{float: right;margin-right:20px;}
+.tab_img{position: relative;}
+.tab_img,.tab_img img{height: 180px;width: 310px;}
+.tab_img a{position: absolute;}
+/*#another{margin-top:40px;}*/
+#another li{padding: 20px 5px;border:none;}
+#another li:hover,#another li a:hover{background: none;}
+.xsgg .time{background: #00489D;float: left;overflow:hidden;margin:0 10px;}
+.xsgg .time span{display: block;text-align: center;padding:2px 5px;}
+.xsgg .time span:first-of-type{border-bottom:1px solid  #efefef;color: #fff;font-size: 1.2em;}
+.xsgg .time span:last-of-type{background:#fff;font-size:0.8em;color:#00489D;}
+.xsgg .title a{color: #000;}
+/*activ*/
+.tab_title .active{background: url(../img/logoicon.png)left center no-repeat;background-color: #002E73;color: #fff;}
+.act{display: block;}
+
+
+
