@@ -40,8 +40,9 @@ li{list-style: none;}
 .tab_img,.tab_img img{height: 180px;width: 310px;}
 .tab_img a{position: absolute;}
 /*#another{margin-top:40px;}*/
-#another li{padding: 20px 5px;border:none;}
+#another li{padding: 15px 5px;border:none;}
 #another li:hover,#another li a:hover{background: none;}
+#another img{height:98px;width: 300px;}
 .xsgg .time{background: #00489D;float: left;overflow:hidden;margin:0 10px;}
 .xsgg .time span{display: block;text-align: center;padding:2px 5px;}
 .xsgg .time span:first-of-type{border-bottom:1px solid  #efefef;color: #fff;font-size: 1.2em;}
