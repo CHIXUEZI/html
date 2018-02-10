@@ -7,7 +7,7 @@ li{list-style: none;}
 .banner{width: 100%;}
 .tab_title,.tab,.emtry{width: 1000px;}
 .banner_main,.tab_big,.link_big,.foooter_big,.navbig{width: 1452px;}
-.banner_main,.banner_img,.tab_big,.tab_main,.tab_title,.tab_body,.tab,.link_big,foooter_big{margin: 0 auto;}
+.banner_main,.banner_img,.tab_big,.tab_main,.tab_title,.tab_body,.tab,.link_big,.foooter_big{margin: 0 auto;}
 
 .tab{margin-top: 20px;}
 /*banner*/
