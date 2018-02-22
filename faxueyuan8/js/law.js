@@ -20,15 +20,23 @@ $(function() {
     };
     //tab_img
     var tabimg = $(".tab_main .tab_img a");
+    var tabtitle = $("#banner2 .img_title a");
     var count2 = 0;
+    var count3 = 1;
     var time1 = setInterval(tabbanner, 2200);
     function tabbanner() {
         //alert(count2);
         tabimg.eq(count2).fadeIn(600).siblings().fadeOut(600);
+        tabtitle.eq(count3).fadeIn(600).siblings().fadeOut(0);
         if (count2 >= tabimg.length - 1) {
             count2 = 0;
         } else {
             count2++;
+        }
+        if (count3 >= tabtitle.length - 1) {
+            count3 = 0;
+        } else {
+            count3++;
         }
     };
     //tab

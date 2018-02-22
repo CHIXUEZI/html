@@ -51,9 +51,15 @@ li{list-style: none;}
 .time span:first-of-type{border-bottom:1px solid  #efefef;color: #fff;font-size: 1.2em;}
 .time span:last-of-type{background:#fff;font-size:0.8em;color:#00489D;}
 .title a{color: #000;}
+
 .xyxw{width: 638px;}
-.xyxw_img,.xyxw_img img,.xyxw_ul{width: 310px;}
-.xyxw_img,.xyxw_img img{height: 300px;}
+.xyxw_img,.xyxw_img img,.xyxw_ul,#banner2,.img_title{width: 310px;}
+#banner2{float: left;height:330px;}
+.img_title{height:48px;margin-top:280px;background: #fff;}
+.img_title a{color: #000;display:none;}
+.img_title a:first-of-type{display:block;}
+
+.xyxw_img,.xyxw_img img{height: 260px;}
 .xyxw_img{float: left;margin-top:22px;}
 .xyxw_ul{float: right;}
 /*activ*/
