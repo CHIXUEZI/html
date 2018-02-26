@@ -8,7 +8,6 @@ li{list-style: none;}
 .head_main,.look,.look img,.address,.content,.link,.footer{width: 1000px;}
 .head .head_main.link ul,.head_main,.look,.address,.content,.link,.footer,.navbig{margin: 0 auto;}
 /*.nav ul li{font-family:"SimSun",宋体;}*/
-.link{margin-top: 20px;}
 /*head*/
 .head{height:150px;background-color: #00489D;}
 .head img{margin-top: 10px;}
