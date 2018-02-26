@@ -51,14 +51,13 @@ li{list-style: none;}
 /*look*/
 body{background: #EDEDED;}
 .look,.look img{height: 80px;}
-.look{margin-top: 4px;}
 /*address&content*/
-.address,.content{background: #EDEDED;}
+.address,.content{background: #fff;}
 /*address*/
 .address{height:20px;line-height: 20px;}
 .address,.address a{color: #535353;font-size: 12px;}
 /*content*/
-.content{overflow: hidden;}
+.content{overflow: hidden;background-color:#fff;}
 .content_left{height: 650px;width: 180px;background: url(../img/back1.png)center bottom no-repeat;float: left;}
 .content_left ul li {float: none;width: 180px;height: 50px;line-height: 50px;text-align: center;}
 .content_left ul li a{margin: 0 15px;width: 150px;height: 100%;float: right;display: block;color: #535353;border-bottom: 1px dashed #A0A0A0;}
@@ -66,7 +65,7 @@ body{background: #EDEDED;}
 .content_act{width: 10px;border-left: 15px solid #00489D;background: url(../img/logoicon.png)left center no-repeat;}
 .content_right{width:780px;float: right;overflow: hidden;padding: 10px;}
 /*content_right page*/
-.content_right{background: #F3F3F3;}
+.content_right{/*! background: #F3F3F3; */}
 .page{text-align: right;padding:0 10px;}
 .page font,.page a{color:#EB6101; }
 .page span,.page a{margin: 0px 10px;}
