@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.1, user-scalable=no" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="河大,河南大学, 学科, 学科建设,河南大学学科建设处" />
+    <link rel="stylesheet" href="./css/public.css">
+    <link rel="stylesheet" href="./css/bannerStyle.css" media="screen">
+    <link rel="stylesheet" href="./css/home.css">
+    <script type="text/javascript" src="./js/jquery-1.8.3.min.js"></script>
+    <title>河南大学学科建设处</title>
+</head>
+
+<body>
+    <!-- 头部 Begin -->
+    <div class="head">
+        <div class="head_main">
+            <div class="head_left main">
+                <a  class="fleft" href="index.html"><img src="./images/logo.png" alt="河南大学学科建设处"></a>
+                <img class="fright" id="haed_xiaoxun" src="images/xiaoxun.png">
+            </div>
+        </div>
+    </div>
+    <!-- 头部 End -->
+    <!-- nav导航栏 -->
+    <div class="nav_box">
+        <ul class="nav1">
+            <li><a href="">首页</a></li>
+            <li><a href="./second.html">部门概况</a>
+                <ul class="nav2">
+                    <li><a href="">部门体制</a></li>
+                    <li><a href="">部门职能</a></li>
+                    <li><a href="">部门成员</a></li>
+                </ul>
+            </li>
+			<li><a href="">一流建设</a>
+                <ul class="nav2">
+                    <li><a href="">生物学</a></li>
+                    <li><a href="">计算机科学</a></li>
+                    <li><a href="">其他科学</a></li>
+                </ul>
+            </li>
+            <li><a href="">学科建设</a>
+                <ul class="nav2">
+                    <li><a href="">学科建设1</a></li>
+                    <li><a href="">学科建设2</a></li>
+                    <li><a href="">学科建设3</a></li>
+                    <li><a href="">学科建设4</a></li>
+                </ul>
+            </li>
+            <li><a href="">发展评估</a>
+                <ul class="nav2">
+                    <li><a href="">发展评估1</a></li>
+                    <li><a href="">发展评估2</a></li>
+                    <li><a href="">发展评估3</a></li>
+                    <li><a href="">发展评估4</a></li>
+                    <li><a href="">发展评估5</a></li>
+                </ul>
+            </li>
+            
+            <li><a href="">学科动态</a>
+                <ul class="nav2">
+                    <li><a href="">学科动态1</a></li>
+                    <li><a href="">学科动态2</a></li>
+                    <li><a href="">学科动态3</a></li>
+                    <li><a href="">学科动态4</a></li>
+                </ul>
+            </li>
+            <li><a href="">规章制度</a>
+                <ul class="nav2">
+                    <li><a href="">规章一</a></li>
+                    <li><a href="">制度二</a></li>
+                </ul>
+            </li>
+            <li><a href="">下载中心</a></li>
+        </ul>
+    </div>
+    <!-- Nav 导航结束 -->
+    <!-- 存Banner地址和标题 -->
+    <div id="zhanqunBanner" style="display: none;">
+        <img src="images/slides/slide0.jpg" alt="">
+        <img src="images/slides/slide1.jpg" alt="">
+        <img src="images/slides/slide2.jpg" alt="">
+        <img src="images/slides/slide3.jpg" alt="">
+        <img src="images/slides/slide4.jpg" alt="">
+    </div>
+    <!-- 百叶窗Banner轮播图 Begin-->
+    <div id="wrapper">
+        <div class="fullwidthbanner-container">
+            <div class="fullwidthbanner">
+                <ul>
+                    <li data-transition="boxslide" data-slotamount="15" data-masterspeed="300" data-link="#">
+                        <img src="images/slides/slide0.jpg" alt="" />
+                    </li>
+                    <li data-transition="3dcurtain-vertical" data-slotamount="15" data-masterspeed="300" data-link="#">
+                        <img src="" alt="" />
+                    </li>
+                    <li data-transition="papercut" data-slotamount="15" data-masterspeed="300" data-link="#">
+                        <img src="" alt="" />
+                    </li>
+                    <li data-transition="turnoff" data-slotamount="15" data-masterspeed="300" data-link="#">
+                        <img src="" alt="" />
+                    </li>
+                    <li data-transition="flyin" data-slotamount="15" data-masterspeed="300" data-link="#">
+                        <img src="" alt="" />
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+	<script>
+    for (var i = 0; i < $('#wrapper img').length; i++) {
+        $('#wrapper img').eq(i).attr('src', $('#zhanqunBanner img').eq(i).attr('src'));
+    }
+    </script>
+    <!-- 百叶窗Banner轮播图 End-->
+    <!-- section1:新闻发布&科技统计 -->
+    <div class="section section_whith">
+        <div class="main pad ovf secmain">
+            <div class="fleft" id="xwfb">
+                <div class="title">
+                    <h2 class="title_h2 fleft">新闻发布</h2>
+                    <a class="more fright" href="">更多</a>
+                </div>
+                <ul class="news_content">
+                    <li><a href="">这里是新闻发布板块标题<font class="fright">2018-03-24</font></a></li>
+                    <li><a href="">这里是新闻发布板块标题<font class="fright">2018-03-24</font></a></li>
+                    <li><a href="">这里是新闻发布板块标题<font class="fright">2018-03-24</font></a></li>
+                    <li><a href="">这里是新闻发布板块标题<font class="fright">2018-03-24</font></a></li>
+                    <li><a href="">这里是新闻发布板块标题<font class="fright">2018-03-24</font></a></li>
+                    <li><a href="">这里是新闻发布板块标题<font class="fright">2018-03-24</font></a></li>
+                </ul>
+            </div>
+            <div class="fright" id="kjtj">
+                <div class="title">
+                    <h2 class="title_h2 fleft">科技统计</h2>
+                    <a class="more fright" href="">更多</a>
+                </div>
+                <ul class="news_content">
+                    <li><a href="">这里是科技统计板块标题</a></li>
+                    <li><a href="">这里是科技统计板块标题</a></li>
+                    <li><a href="">这里是科技统计板块标题</a></li>
+                    <li><a href="">这里是科技统计板块标题</a></li>
+                    <li><a href="">这里是科技统计板块标题</a></li>
+                    <li><a href="">这里是科技统计板块标题</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- section2 学科动态&办事之指南&常用下载 -->
+    <div class="section section_gray">
+        <div class="main pad ovf secmain">
+            <div class="fleft" id="xkdt">
+                <div class="title">
+                    <h2 class="title_h2 fleft">学科动态</h2>
+                    <a class="more fright" href="">更多</a>
+                </div>
+                <ul class="news_content">
+                    <li><a href="">这里是学科动态板块标题<font class="fright">2018-03-24</font></a></li>
+                    <li><a href="">这里是学科动态板块标题<font class="fright">2018-03-24</font></a></li>
+                    <li><a href="">这里是学科动态板块标题<font class="fright">2018-03-24</font></a></li>
+                    <li><a href="">这里是学科动态板块标题<font class="fright">2018-03-24</font></a></li>
+                    <li><a href="">这里是学科动态板块标题<font class="fright">2018-03-24</font></a></li>
+                    <li><a href="">这里是学科动态板块标题<font class="fright">2018-03-24</font></a></li>
+                </ul>
+            </div>
+            <div class="fleft" id="bazn">
+                <div class="title">
+                    <h2 class="title_h2 fleft">办事指南</h2>
+                    <a class="more fright" href="">更多</a>
+                </div>
+                <ul class="news_content">
+                    <li><a href="">这里是办事指南<font class="fright">2018-03-24</font>板块标题</a></li>
+                    <li><a href="">这里是办事指南<font class="fright">2018-03-24</font>板块标题</a></li>
+                    <li><a href="">这里是办事指南<font class="fright">2018-03-24</font>板块标题</a></li>
+                    <li><a href="">这里是办事指南<font class="fright">2018-03-24</font>板块标题</a></li>
+                    <li><a href="">这里是办事指南<font class="fright">2018-03-24</font>板块标题</a></li>
+                    <li><a href="">这里是办事指南<font class="fright">2018-03-24</font>板块标题</a></li>
+                </ul>
+            </div>
+            <div class="fleft" id="cyxz">
+                <div class="title">
+                    <h2 class="title_h2 fleft">常用下载</h2>
+                    <a class="more fright" href="">更多</a>
+                </div>
+                <ul class="news_content">
+                    <li><a href="">这里是常用下载板块标题</a></li>
+                    <li><a href="">这里是常用下载板块标题</a></li>
+                    <li><a href="">这里是常用下载板块标题</a></li>
+                    <li><a href="">这里是常用下载板块标题</a></li>
+                    <li><a href="">这里是常用下载板块标题</a></li>
+                    <li><a href="">这里是常用下载板块标题</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="main auto" id="footer">
+            <p>版权所有:&nbsp;&nbsp;河南大学学科建设处 Copyright © 2018</p>
+            
+            <p>制作维护:&nbsp;&nbsp;河南大学计算机与信息工程学院 <a target="_blank" href="http://cs.henu.edu.cn/107lab">107网站工作室</a></p>
+        </div>
+    </div>
+    
+    <!-- Main 主要内容 Begin -->
+    <div class="main">
+    </div>
+    <!-- Main 主要内容 ENd -->
+</body>
+
+</html>
+<script type="text/javascript" src="./js/jquery.banner.revolution.min.js"></script>
+<script type="text/javascript" src="./js/banner.js"></script>
+<script type="text/javascript" src="./js/public.js"></script>

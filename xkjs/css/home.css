@@ -1,0 +1,19 @@
+
+/* section1 punlic */
+.title{height: 30px;line-height: 30px;border-bottom: 2px solid #0089E1;padding: 0 10px 0 0;}
+.title_h2{border-left:10px solid #0089E1; padding-left:5px;}
+.news_content{margin: 20px 10px;}
+.news_content li{height: 35px;font-size: 1.3em;line-height: 35px;}
+.news_content li a{color: #000;display: block;}
+.news_content li a:hover{color: #FEA356;border-bottom: 1px dashed #dee1d3;}
+/* section*/
+#xwfb{width: 785px; margin-left: 5px;}
+#kjtj{width: 390px; margin-right: 5px;}
+#xkdt,#bazn,#cyxz{width: 385px;}
+#xkdt,#bazn{margin-right: 10px;}
+#bazn,#cyxz{margin-left:5px;}
+#xkdt{margin-left: 5px;}
+.secmain > div{
+  box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11), 0 5px 15px 0 rgba(0,0,0,0.08);
+  border-radius: 5px;
+}
