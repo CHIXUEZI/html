@@ -1,22 +1,7 @@
-#look {
- background: url(../img/lookimg.jpg)center center no-repeat;
- background-size: 100%;
- height: 200px;
-}
-.look_title{width: 250px;height: 50px;background: -webkit-linear-gradient(right,rgba(0, 116, 232,.5),rgba(0, 66, 124,1)); 
- background: -o-linear-gradient(right, rgba(0, 116, 232,.5),rgba(0, 66, 124,1));
- background: -moz-linear-gradient(right, rgba(0, 116, 232,.5),rgba(0, 66, 124,1)); 
- background: linear-gradient(to right, rgba(0, 116, 232,.5),rgba(0, 66, 124,1));text-align: center;color:#fff;font-size: 1.2em;line-height: 50px;float: right;margin: 150px 0 0 0;}
-/* address */
-#address{height: 20px;line-height: 20px;border-bottom: 1px solid #47494B;}
-#address a{color:rgba(0, 116, 232,.8);}
-/* newslist */
-.newslist{margin-top: 10px;}
-.newslist_title{height: 40px;background: #47494B;}
-.newslist_title>ul li{width: 120px;float: left;line-height: 40px;text-align: center;}
-.newslist_title>ul li a{color: #fff;font-size: 1.3em;display:block;}
-.active{font-weight: bold; background: url(../images/icon/active.png)left center no-repeat #EB6100;}
-.newslist_list{padding: 10px 0;}
+
+
+.newslist_list{padding: 10px 0;margin-bottom:20px;}
+.newslist_list ul{margin-bottom:20px;}
 .newslist_list ul li{height: 40px;line-height: 40px;font-size: 1.2em;border-bottom: 1px dashed #7C7C7C;}
 .newslist_list ul li a{color: #434343;display: block;padding:0 10px;}
 .newslist_list ul li:hover{background: rgba(199, 102, 95,.2);}

@@ -1,0 +1,9 @@
+.newslist_content{overflow:hidden;padding:0 15px 50px 15px;background:#F9F9FA; }
+.contents{ }
+.contents h2 {text-align: center;line-height: 50px;}
+.info{text-align: center;margin: 10px;}
+.info font{margin: 0px 20px;}
+.contents p{text-indent:2em;}
+.download{float: right;margin-top: 20px;}
+.download img{width: 20px;}
+.download a{color: #EB6100;}
