@@ -14,17 +14,17 @@
 		}
 	});
 	// newsimg轮播
-	var banimgs = $('.section .secmain #newsimg ul li a');
-	var count =0;
-	var time=setInterval(newsbanner,2400);
+	var banimgs = $('.section .secmain #newsimg ul li');
+	var count =1;
+	var time=setInterval(newsbanner,2800);
 	function newsbanner(){
-		banimgs.eq(count).fadeIn().siblings().fadeOut();
+		banimgs.eq(count).fadeIn(600).siblings().fadeOut(600);
 		if(count>=banimgs.length-1){
 			count=0;
 		}else{
 			count++;
 		}
-		alert(banimgs.eq(count).siblings());
+		//alert(count);
 	}
 	// action点击切换
 	function returnUrl(href){
