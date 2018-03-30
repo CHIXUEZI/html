@@ -94,3 +94,15 @@ body{
 .footer{
 	
 }
+/*look*/
+#look {
+	background-image:url(); 
+ background-position: center center;
+ background-repeat:  no-repeat;
+ background-size: 100%;
+ height: 200px;
+}
+.look_title{width: 250px;height: 50px;background: -webkit-linear-gradient(right,rgba(0, 116, 232,.3),rgba(0, 66, 124,1)); 
+ background: -o-linear-gradient(right, rgba(0, 116, 232,.3),rgba(0, 66, 124,1));
+ background: -moz-linear-gradient(right, rgba(0, 116, 232,.3),rgba(0, 66, 124,1)); 
+ background: linear-gradient(to right, rgba(0, 116, 232,.3),rgba(0, 66, 124,1));text-align: center;color:#fff;font-size: 1.2em;line-height: 50px;float: right;margin: 150px 0 0 0;}

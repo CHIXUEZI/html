@@ -2,6 +2,6 @@
 
 .newslist_list{padding: 10px 0;margin-bottom:20px;}
 .newslist_list ul{margin-bottom:20px;}
-.newslist_list ul li{height: 40px;line-height: 40px;font-size: 1.2em;border-bottom: 1px dashed #7C7C7C;}
+.newslist_list ul li{height: 40px;line-height: 40px;font-size: 1em;border-bottom: 1px dashed #7C7C7C;}
 .newslist_list ul li a{color: #434343;display: block;padding:0 10px;}
 .newslist_list ul li:hover{background: rgba(199, 102, 95,.2);}
