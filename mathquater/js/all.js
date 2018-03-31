@@ -15,5 +15,5 @@ $(function() {
     function returnUrl(href) {
         var unum = href.lastIndexOf('/');
         return href.substring(unum + 1);
-    }
+    };
 });

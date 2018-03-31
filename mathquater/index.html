@@ -181,24 +181,23 @@
                     <h2>登录系统</h2>
                 </div>
                 <ul>
-                    <li><a href="login.html">
+                    <li><a class="alterlogin" href="javascript:void(0)" onclick="loginshow()">
                             <img src="img/icon (1).png" alt="">
-                    </table>
                             <h4>作者投稿查询</h4>
                         </a></li>
-                    <li><a href="login.html">
+                    <li><a class="alterlogin" href="javascript:void(0)" onclick="loginshow()">
                             <img src="img/icon (5).png" alt="">
                             <h4>专家在线查稿</h4>
                         </a></li>
-                    <li><a href="login.html">
+                    <li><a class="alterlogin" href="javascript:void(0)" onclick="loginshow()">
                             <img src="img/icon (4).png" alt="">
                             <h4>编委在线查稿</h4>
                         </a></li>
-                    <li><a href="login.html">
+                    <li><a class="alterlogin" href="javascript:void(0)" onclick="loginshow()">
                             <img src="img/icon (2).png" alt="">
                             <h4>主编在线查稿</h4>
                         </a></li>
-                    <li><a href="login.html">
+                    <li><a class="alterlogin" href="javascript:void(0)" onclick="loginshow()">
                             <img src="img/icon (3).png" alt="">
                             <h4>编辑在线查稿</h4>
                         </a></li>
@@ -324,10 +323,41 @@
     <div class="footer">
         <div class="main auto" id="footer">
             <p>版权所有:&nbsp;&nbsp;河南大学数学与统计学院《数学季刊》编辑部Copyright © 2016</p>
-            <p>制作维护:&nbsp;&nbsp;河南大学计算机与信息工程学院<a href="http://cs.henu.edu.cn/107lab">107网站工作室</a></p>
+            <p>制作维护:&nbsp;&nbsp;河南大学计算机与信息工程学院<a href="http://cs.henu.edu.cn/107lab" target="_blank">107网站工作室</a></p>
+        </div>
+    </div>
+    <div class="login_back">
+    </div>
+    <div class="loginPage auto">
+        <div class=" auto">
+            <div class="login_title">
+                <a id="close"><img src="img/close.png" alt=""/></a>
+            </div>
+            <div class="login_main">
+                <ul>
+                    <li><span>用户名</span>
+                        <input type="text" placeholder="请输入邮箱">
+                    </li>
+                    <li><span>密码</span>
+                        <input type="password">
+                    </li>
+                </ul>
+            </div>
+            <button class="auto" id="login_submit">登录</button>
         </div>
     </div>
 </body>
 
 </html>
 <script type="text/javascript" src="js/all.js"></script>
+<script type="text/javascript">
+function loginshow() {
+    $('.login_back').show();
+    $('.loginPage').fadeIn(500);
+};
+
+$('#close').click(function() {
+    $('.loginPage').fadeOut(500);
+    $('.login_back').hide();
+});
+</script>
