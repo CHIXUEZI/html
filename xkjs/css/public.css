@@ -38,7 +38,11 @@ body{
 .head_left img{
 	height: 100px;
 }
-
+.head_right{}
+#haed_xiaoxun{width: 572px;height: 26px; }
+#sousuo{text-align: right;font-size: 1.2em;margin:50px 20px 5px 0;color: #0089E1;line-height: 30px;}
+#sousuo input{width: 200px;height: 30px;border-radius: 5px;padding-left: 5px;}
+#sousuo a{background: #0089E1;color: #fff;display: inline-block;width: 40px;height: 30px;text-align: center;border-radius: 5px}
 /*头部 End*/
 
 
@@ -86,7 +90,7 @@ body{
 	border-bottom-right-radius: 5px;
 	border: none;
 }
-#haed_xiaoxun{width: 572px;height: 26px;margin-top:75px; }
+
 .footer{background: url(../images/headbg.png) repeat-x center center;height: 80px;border-top: 2px solid #B5B5B5;line-height: 30px;}
 #footer{text-align: center;padding: 10px 0;color:#434343;font-size:1.2em;}
 #footer a{color:#0089E1; }

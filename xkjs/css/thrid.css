@@ -6,17 +6,16 @@
 .newslist_title{height: 40px;background: #47494B;}
 .newslist_title>ul li{width: 120px;float: left;line-height: 40px;text-align: center;}
 .newslist_title>ul li a{color: #fff;font-size: 1.3em;display:block;}
-.newslist_title>ul li:hover{background:url(../images/icon/active.png)left center no-repeat rgba(51, 103, 214,.5);}
-.active{font-weight: bold; background: url(../images/icon/active.png)left center no-repeat #00427C;}
-
+.newslist_title>ul li:hover{background:url(../images/icon/active.png)left center no-repeat rgba(51, 103, 214,.5);background-size: 25px;}
+.active{font-weight: bold; background: url(../images/icon/active.png)left center no-repeat #00427C;background-size: 25px;}
 .newslist_list{padding: 10px 0;}
 .newslist_list ul li{height: 40px;line-height: 40px;font-size: 1.2em;border-bottom: 1px dashed #7C7C7C;}
 .newslist_list ul li a{color: #434343;display: block;padding:0 10px;}
 .newslist_list ul li:hover{background: rgba(199, 102, 95,.2);}
 .newslist_content{overflow: hidden;background: rgba(120, 154, 168,.1);}
 /*文章*/
-.contents{padding:10px 25px 50px 25px;}
+.contents{padding:10px 25px 50px 25px;min-height:300px;}
 .contents h2 {text-align: center;line-height: 50px;font-size:2.1em;}
 .info{text-align: center;margin: 10px;}
 .info font{margin: 0px 20px;}
-.contents p{text-indent:2em;font-size: 1.3em;line-height:25px}
+.contents p{font-size: 1.3em;line-height:25px}
