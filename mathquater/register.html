@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.1 " />
+    <link rel="stylesheet" type="text/css" href="css/all.css">
+    <link rel="stylesheet" type="text/css" href="css/register.css">
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <title>数学季刊</title>
+</head>
+
+<body>
+    <div class="head">
+        <div class="main auto" id="head_main">
+            <div id="headlogo" class="fleft"><a href="index.html"><img src="img/logotitle.png" alt="数学季刊欢迎您"></a></div>
+            <div class="fright">
+                <div class="headchoose">
+                    <a href="">联系我们</a>
+                    <a href="">在线留言</a>
+                    <a href="">常见疑问</a>
+                </div>
+                <div class="headinput">
+                    <span>快速检索:</span>
+                    <input type="text">
+                    <button>GO</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="nav">
+        <div class="main auto" id="nav_main">
+            <ul class="navul">
+                <li class="nav_li">
+                    <a id="border" href="index.html">首页</a>
+                </li>
+                <li class="nav_li">
+                    <a href="second.html">季刊介绍</a>
+                    <ul>
+                        <li><a href="#">基本信息</a></li>
+                        <li><a href="#">期刊介绍</a></li>
+                        <li><a href="#">收录情况</a></li>
+                        <li><a href="#">文献计量指标</a></li>
+                    </ul>
+                </li>
+                <li class="nav_li">
+                    <a href="second.html">编委会</a>
+                </li>
+                <li class="nav_li">
+                    <a href="second.html">作者中心</a>
+                    <ul>
+                        <li><a href="">作者指南</a></li>
+                        <li><a href="">在线投稿查稿</a></li>
+                    </ul>
+                </li>
+                <li class="nav_li">
+                    <a href="second.html">审稿中心</a>
+                    <ul>
+                        <li><a href="">专家在线审稿</a></li>
+                        <li><a href="">编委在线审稿</a></li>
+                        <li><a href="">主编审稿</a></li>
+                        <li><a href="">编辑审稿</a></li>
+                        <li><a href="">审者指南</a></li>
+                    </ul>
+                </li>
+                <li class="nav_li">
+                    <a href="second.html">在线期刊</a>
+                    <ul>
+                        <li><a href="">最新录用文章</a></li>
+                        <li><a href="">下期目录</a></li>
+                        <li><a href="">当期目录</a></li>
+                        <li><a href="">过刊浏览</a></li>
+                    </ul>
+                </li>
+                <li class="nav_li">
+                    <a href="second.html">下载中心</a>
+                </li>
+                <li class="nav_li">
+                    <a href="second.html">友情链接</a>
+                    <ul>
+                        <li><a href="">高等院校</a></li>
+                        <li><a href="">研究院所</a></li>
+                        <li><a href="">季刊与数据库</a></li>
+                        <li><a href="">友情链接</a></li>
+                    </ul>
+                </li>
+                <li class="nav_li">
+                    <a href="second.html">期刊订阅</a>
+                    <ul>
+                        <li><a href="">新闻</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Sign in -->
+    <div class="register main auto">
+        <div class="" id="signIn">
+            <form id="form_event" method="post">
+                <ul class="signIn_ul auto">
+                    <li>
+                        <p>请填写个人信息完成注册</p>
+                    </li>
+                    <li><span class="must">*</span><span class="itemname">邮箱</span>
+                        <input type="email" required="required" name="email" placeholder="请输入常用邮箱">
+                    </li>
+                    <li><span class="must">*</span><span class="itemname">密码</span>
+                        <input type="password" id="pwd" required="required" name="pwd" placeholder="请输入密码">
+                    </li>
+                    <li><span class="must">*</span><span class="itemname">确认密码</span>
+                        <input type="password" id="re_pwd" required="required" name="re_pwd" placeholder="请再次输入密码">
+                    </li>
+                    <li><span class="must">*</span><span class="itemname">真实姓名</span>
+                        <input type="text" required="required" name="realname" placeholder="请输入真实姓名">
+                    </li>
+                    <li><span class="must">*</span><span class="itemname">性别</span>
+                        <input type="radio" value="男" name="sex" class="sex" checked="checked" />
+                        <font>男</font>
+                        <input type="radio" value="女" name="sex" class="sex" />
+                        <font>女</font>
+                    </li>
+                    <li><span class="must">*</span><span class="itemname">专业</span>
+                        <input type="text" required="required" name="major">
+                    </li>
+                    <li><span class="must">*</span><span class="itemname">研究方向</span>
+                        <input type="text" required="required" name="research_direction">
+                    </li>
+                    <li><span class="must">*</span><span class="itemname">地址</span>
+                        <input type="text" required="required" name="address">
+                    </li>
+                    <li><span class="must">*</span><span class="itemname">手机号</span>
+                        <input type="text" required="required" name="phone">
+                    </li>
+                    <li><span class="must">*</span><span class="itemname">邮编</span>
+                        <input type="text" required="required" name="postcode">
+                    </li>
+                    <li><span class="itemname norequired">单位</span>
+                        <input type="text" name="organization">
+                    </li>
+                    <li><span class="itemname norequired">QQ号</span>
+                        <input type="text" name="qq">
+                    </li>
+                    <li><span class="itemname norequired">学历</span>
+                        <input type="text" name="edu_background">
+                    </li>
+                    <li><input type="hidden" name="identity" value="student" /></li>
+                    <li><input type="submit" value="注册" id="signin_btn" class="auto" /></li>
+                </ul>
+            </form>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <div class="main auto" id="footer">
+            <p>版权所有:&nbsp;&nbsp;河南大学数学与统计学院《数学季刊》编辑部Copyright © 2016</p>
+            <p>制作维护:&nbsp;&nbsp;河南大学计算机与信息工程学院<a href="http://cs.henu.edu.cn/107lab">107网站工作室</a></p>
+        </div>
+    </div>
+</body>
+
+</html>
+<script type="text/javascript" src="js/login.js"></script>
+<script type="text/javascript">
+    $('#form_event').submit(function(event) {
+        event.preventDefault();
+        if($('#repwd').val()!=$('#pwd').val()){
+            alert("两次输入密码不一致!");
+            return;
+        }
+        var from = $(this);
+        $.ajax({
+            url:,
+            type:'POST',
+            data:from.serialize(),
+            dataType:'json',
+            success:function (data) {
+                if(data.code==200){
+                    alert(data.message);
+                }else{
+                    alert(data.message);
+                }
+            }
+        });
+    });
+</script>

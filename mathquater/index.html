@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=0.1 " />
+    <meta name="viewport" content="width=device-width, initial-scale=0.1,user-scalable=no"/>
     <meta name="description" content="">
     <meta name="keywords" content="数学季刊,河南大学,数学季刊网站">
     <link rel="stylesheet" type="text/css" href="css/all.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <title>数学季刊</title>
 </head>
@@ -181,7 +182,7 @@
                     <h2>登录系统</h2>
                 </div>
                 <ul>
-                    <li><a class="alterlogin" href="javascript:void(0)" onclick="loginshow()">
+                    <li><a class="alterlogin" href="javascript:void(0);" onclick="loginshow()">
                             <img src="img/icon (1).png" alt="">
                             <h4>作者投稿查询</h4>
                         </a></li>
@@ -334,14 +335,20 @@
                 <a id="close"><img src="img/close.png" alt=""/></a>
             </div>
             <div class="login_main">
-                <ul>
-                    <li><span>用户名</span>
-                        <input type="text" placeholder="请输入邮箱">
-                    </li>
-                    <li><span>密码</span>
-                        <input type="password">
-                    </li>
-                </ul>
+                <form>
+                    <ul class="auto">
+                        <li><span>用户名</span>
+                            <input type="email" placeholder="请输入邮箱" required="required" name="username" />
+                        </li>
+                        <li><span>密码</span>
+                            <input type="password" required="required" placeholder="请输入密码" name="password" />
+                        </li>
+                        <li><span>验证码</span>
+                            <input id="yz" type="text" required="require    d" name="authocode"/><a href="javascript:void(0)" onclick="document.getElementById('yanzhengma').src='<?php echo site_url('home/authcode'); ?>/'+Math.random()" style="display:inline-block; height:40px; float:right;">
+                            <img  id="yanzhengma" src="<?php echo site_url('home/authcode'); ?>/<?php echo rand(); ?>" style="right"/>
+                        </a></li>
+                    </ul>
+                </form>
             </div>
             <button class="auto" id="login_submit">登录</button>
         </div>

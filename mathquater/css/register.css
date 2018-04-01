@@ -1,0 +1,13 @@
+#signIn {
+ background-color: #EEEEEE;padding: 15px;
+}
+.signIn_ul{width: 625px;}
+.signIn_ul li{height: 60px;line-height: 60px;}
+.signIn_ul li input{width:500px;height:40px;border:1px solid #D1D5D7;border-radius: 5px;padding-left:5px}
+.signIn_ul li .sex{width: 20px;height: 20px;vertical-align: middle;}
+.signIn_ul li font:first-of-type{margin-right: 50px;  }
+.itemname{width: 100px;display: inline-block;}
+.norequired{padding-left: 10px;}
+.must{color: red;width:10px;}
+#signin_btn{width: 625px;height: 50px;font-size: 1.2em;background: #0074E8;color: #fff;cursor:pointer;}
+#signin_btn:hover{background: #EB6100;}
