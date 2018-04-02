@@ -1,0 +1,8 @@
+*{margin:0;padding:0;}
+li{list-style: none;}
+a:hover{text-decoration: none;}
+#header_main{position: fixed;bottom: 0;left: 0;border-top:2px solid #A0A0A0;padding:10px 10px 0px 10px;}
+#header_main ul{width: 100%;}
+#header_main ul li{float: left;width: 20%;text-align: center;}
+#header_main ul li a{color: #4B4B4B;}
+#header_main ul li .choose{color: #0084FF;}
