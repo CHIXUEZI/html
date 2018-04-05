@@ -16,14 +16,15 @@
 </head>
 
 <body>
-    <header id="header" class="">
+    <!-- /header -->
+    <div id="header" class="">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-12 col-xs-12" id="header_main">
                     <ul>
                         <li><a class="chose" href="">
-                                    <img class="choose_img" src="img/icon/1.png" alt="论坛">
-                                    <p>论坛</p>
+                                    <img class="choose_img" src="img/icon/1_xz.png" alt="论坛">
+                                    <p class="blue">论坛</p>
                                 </a></li>
                         <li><a href="">
                                     <img class="choose_img" src="img/icon/2.png" alt="求助">
@@ -45,9 +46,84 @@
                 </div>
             </div>
         </div>
-    </header>
-    <!-- /header -->
+    </div>
+    <!-- 论坛头部信息 -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 col-xs-12" id="personinfo_main">
+                <div class="col-sm-8 col-xs-8 ">
+                    <a href="">
+                        <div class="col-xs-3" id="head_img"><img src="img/head_img.jpg" alt="" id="per_img"></div>
+                        <div class="col-xs-9">
+                            <div id="name_level">
+                                <h1 class="per_niname">HK21<span class="viper level"><img src="img/icon/vip_level.png" alt=""></span></h1></div>
+                            <p class="per_sign text-overflow lead">这位朋友很懒,没有留下什么...</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-3 col-xs-push-1 text-center" id="signIn"><a class="btn center-vertical" role="button" href="">签到</a></div>
+            </div>
+        </div>
+    </div>
+    <!-- 论坛帖子分类 -->
+    <div id="invitation">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12" id="invitation_main">
+                    <ul class="nav nav-tabs nav-justified">
+                        <li role="presentation" class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><img src="img/icon/quanbu.png" alt="">全部<span class="caret"></span></a>
+                            <ul class="dropdown-menu list-group">
+                                <li role="presentation" class="col-xs-12 text-center list-group-item"><a href="">卡友求助</a></li>
+                                <li role="presentation" class="col-xs-12 text-center list-group-item"><a href="">卡友生活</a></li>
+                                <li role="presentation" class="col-xs-12 text-center list-group-item"><a href="">卡友经验</a></li>
+                                <li role="presentation" class="col-xs-12 text-center list-group-item"><a href="">自由贸易</a></li>
+                                <li role="presentation" class="col-xs-12 text-center list-group-item"><a href="">灌水区</a></li>
+                            </ul>
+                        </li>
+                        <li role="presentation"><a href=""><img src="img/icon/jingpin.png" alt="">精品</a></li>
+                        <li role="presentation"><a href=""><img src="img/icon/xiaoxi.png" alt="">消息</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 论坛帖子详情 -->
+    <div id="invitationList">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12" id="invitation_body">
+                    <ul class="media-list">
+                        <li class="media">
+                            <a href="">
+                                <div class="media-left">
+                                    <a class="userimgBox" href=""><img class="userimg" src="img/yonghu1.png" class="media-object"></a>
+                                </div>
+                                <div class="media-body">
+                                    <h2 class="media-heading">用户124582<span class="viper level"><img src="img/icon/vip_level.png" alt=""></span></h2>
+                                    <span class="datetime">5分钟前</span>
+                                    <div class="invitation_body">
+                                        <h2>签到一下</h2>
+                                        <p>没什么就是签个到</p>
+                                    </div>
+                                </div>
+                                <div class="media-right">
+                                    <div class="able"><img src="img/icon/praise.png"><span class="text-center count">3526</span>
+                                    </div>
+                                    <div class="able"><img src="img/icon/comment.png"><span class="text-center count">3526</span>
+                                    </div>
+                                </div>
+                                <span class="label label-info">灌水区</span><span class="label label-info">灌水区</span>
+                                <hr/>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
 <script type="text/javascript" src="./js/all.js"></script>
+<script type="text/javascript" src="js/dropdown.js"></script>

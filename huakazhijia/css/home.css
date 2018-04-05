@@ -1,0 +1,20 @@
+#personinfo_main {
+ height: 180px;padding: 20px;background: url(../img/linkback.jpg)center center no-repeat;background-size: cover;}
+#personinfo_main a{color: #fff;}
+#per_img{width: 130px;height: 130px;border-radius: 50%;display: block;margin: 0 auto;vertical-align: middle;}
+/*签到*/
+#signIn{height: 120px;}
+#signIn a{width:120px;height:50px;background:#E5AA25;line-height: 38px;font-size: 1.2em;}
+/*nav导航*/
+#invitation{background: #E8EFF8;}
+#invitation_main ul>li ul li a:hover{background: #E8EFF8;}
+#invitation_main ul li a .badge{background: #EA2000;}
+/*评论详情*/
+#invitation_body{padding: 0 30px;}
+.userimgBox{width: 90px;height: 90px;border-radius: 50%;overflow: hidden;display: block;}
+.userimg{width: 90px;height: 90px;}
+#invitation_body .media{margin: 10px 0;}
+#invitation_body .media:first-of-type{margin-top: 20px;}
+.count{display: block;}
+#invitation_body .label{width: 35px; height: 30px;margin: 0 0 0 15px;font-size: 1.6em;}
+.able{height: 100px;}

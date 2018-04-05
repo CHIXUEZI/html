@@ -15,4 +15,12 @@ $(function() {
         imgSrc.attr('src', path);
         $(this).find('p').css('color', '#0084FF');
     });
+    //签到功能
+    $('#signIn a').on('tap', function() {
+		//$(this).children().attr('src','img/icon/button_ok.png');
+		$(this).css('background','rgba(0,0,0,.5)');
+		var count1=1;
+		var signcount = '已签到 '+count1+' 天';
+		$(this).html(signcount);
+	});
 });
