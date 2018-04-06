@@ -1,23 +1,4 @@
 *{margin:0;padding:0;}
-li{list-style: none;}
-a{text-decoration: none;}
-a:hover{text-decoration: none!important;}
-a:focus{text-decoration: none;}
-a{font-size: 1.5em;}
-span{font-size: 1.4em;color:#7C7C7C;}
-p{font-size: 1.5em;color:#7C7C7C;}
-.text-overflow {
-display:block;
-word-break:keep-all;
-white-space:nowrap;
-overflow:hidden;
-text-overflow:ellipsis;
-}
-.center-vertical {
-    position:relative;
-    top:50%;
-    transform:translateY(-50%);
-}
 #header_main{position: fixed;bottom: 0;left: 0;padding:20px 10px 5px 10px;z-index: 999;background: #fff;box-shadow: -2px 0px 5px #47494C;}
 #header_main ul{width: 100%;}
 #header_main ul li{float: left;width: 20%;text-align: center;}

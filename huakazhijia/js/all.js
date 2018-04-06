@@ -1,5 +1,6 @@
 $(function() {
     // 点击切换主界面图片
+   
     $('#header_main ul li').on("tap", function() {
         var imgs = $('#header_main ul li a img');
         for (var i = 0; i < imgs.length; i++) {
@@ -16,11 +17,22 @@ $(function() {
         $(this).find('p').css('color', '#0084FF');
     });
     //签到功能
-    $('#signIn a').on('tap', function() {
+    $('#signIn').on('tap','a', function() {
 		//$(this).children().attr('src','img/icon/button_ok.png');
 		$(this).css('background','rgba(0,0,0,.5)');
 		var count1=1;
 		var signcount = '已签到 '+count1+' 天';
 		$(this).html(signcount);
 	});
+	// 点赞功能
+	$('.able_praise').on('tap',function  () {
+		if($(this).attr('disabled')=='disabled'){return;}
+		$(this).find('img').attr('src', 'img/icon/praise_down.png');
+		var praise_count = parseInt($(this).find('span').html())+1;
+		 $(this).find('span').html(praise_count);
+		 $(this).attr('disabled','disabled');
+		 //alert();
+
+
+	})
 });

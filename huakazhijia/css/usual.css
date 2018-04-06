@@ -1,0 +1,22 @@
+@charset "UTF-8";
+*{margin:0;padding:0;}
+li{list-style: none;}
+a{text-decoration: none;}
+a:hover{text-decoration: none!important;}
+a:focus{text-decoration: none;}
+a{font-size: 1.6em;color:#000;}
+span{font-size: 1.4em;color:#7C7C7C;}
+p{font-size: 1.3em;color:#7C7C7C;}
+h2{font-size: 1.6em;}
+/*字体大小预设*/
+.fs20px{font-size: 20px;}
+/*单行文字超出隐藏*/
+.text-overflow{display:block;word-break:keep-all;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+/*居中对齐*/
+.center-vertical {position:relative;top:50%;transform:translateY(-50%);}
+/*标签颜色*/
+.chat_bule{background-color: #5bc0de;}
+.live_orange{background-color:orange;}
+.help_red{background: red;}
+.exper_green{background: green;}
+.free_purprl{background: purple;}
