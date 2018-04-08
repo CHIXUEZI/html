@@ -10,37 +10,108 @@
     <script src="http://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/usual.css">
     <link rel="stylesheet" type="text/css" href="./css/all.css">
-    <link rel="stylesheet" type="text/css" href="css/home.css">
+    <link rel="stylesheet" type="text/css" href="./css/home.css">
+    <link rel="stylesheet" type="text/css" href="css/invicomment.css">
 </head>
 
 <body>
-    <div class="media">
-        <div class="media-left">
-            <a class="userimgBox" href=""><img class="userimg" src="img/yonghu(2).jpg" class="media-object"></a>
-        </div>
-        <div class="media-body">
-            <h2 class="media-heading">用户124582<span class="viper level"><img src="img/icon/vip_level.png" alt=""></span></h2>
-            <span class="datetime">5分钟前</span>
-            <div class="invitation_body">
-                <h2>出门</h2>
-                <p>也没有什么</p>
-                <div class="invitation_imgs">
-                    <img class="invitation_img" src="img/sucai/test1.jpg">
-                    <img class="invitation_img" src="img/sucai/test2.jpg">
-                    <img class="invitation_img" src="img/sucai/test3.jpg">
+    <div class="container-fluid invicomment">
+        <div class="col-xs-12">
+            <div class="row">
+                <div class="invicomment_title">
+                    <h1 class="col-xs-8">出门</h1>
+                    <div class="able able_praise col-xs-1">
+                        <img id="praise" src="/img/icon/praise.png"><span class="text-center count fs20px">3526</span>
+                    </div>
+                    <div class="able col-xs-1">
+                        <img src="/img/icon/look.png"><span class="text-center count fs20px">35</span>
+                    </div>
+                    <div class="able col-xs-1">
+                        <img src="/img/icon/comment_down.png"><span class="text-center count fs20px">3526</span>
+                    </div>
+                    <div class="able col-xs-1">
+                        <img src="/img/icon/report.png"><span class="text-center count fs20px">3526</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="media">
+                    <div class="media-left">
+                        <a class="userimgBox" href=""><img class="userimg" src="img/yonghu(2).jpg" class="media-object"></a>
+                    </div>
+                    <div class="media-body">
+                        <h2 class="media-heading">用户124582<span class="viper level"><img src="img/icon/vip_level.png" alt=""></span></h2>
+                        <span class="datetime">2018-4-7</span>
+                    </div>
+                    <div class="media-right">
+                    </div>
+                    <div class="row"><span class="label live_orange">卡友生活</span></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 invicomment_text">
+                    <p>也没有什么,就出了个门,沿途的风景</p>
+                    <img class="col-xs-12" src="/img/sucai/test1.jpg">
+                    <img class="col-xs-12" src="/img/sucai/test2.jpg">
+                    <img class="col-xs-12" src="/img/sucai/test3.jpg">
                 </div>
             </div>
         </div>
-        <div class="media-right">
-            <div class="able able_praise"><img id="praise" src="img/icon/praise.png"><span class="text-center count fs20px">3526</span>
+        <div class="col-xs-12 invitation_coms">
+            <div class="row invitation_comstitle">
+                <h2 class="col-xs-10">全部回帖</h2>
+                <span class="col-xs-2 text-right">正序</span>
             </div>
-            <div class="able"><a href="invitation_comment.html"><img src="img/icon/comment.png"><span class="text-center count fs20px">3526</span>
-                                    </a></div>
+            <div class="row invitation_comscom">
+                <ul class="media-list">
+                    <li class="media">
+                        <div class="row">
+                            <div class="media-left">
+                                <a class="userimgBox" href=""><img class="userimg" src="/img/yonghu.jpg" class="media-object"></a>
+                            </div>
+                            <div class="media-body">
+                                <a href=""><h2 class="media-heading">用户124582<span class="viper level"><img src="/img/icon/vip_level.png" alt=""></span></h2></a>
+                                <span class="datetime">5分钟前</span>
+                                <div class="invitation_comment">
+                                    <p>希望帮帮忙</p>
+                                </div>
+                            </div>
+                            <div class="media-right"><span class="floor">1L</span></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-push-10 col-xs-2 text-right"><span>回复</span></div>
+                        </div>
+                        <hr/>
+                    </li>
+                    <li class="media">
+                        <div class="row">
+                            <div class="media-left">
+                                <a class="userimgBox" href=""><img class="userimg" src="/img/yonghu.jpg" class="media-object"></a>
+                            </div>
+                            <div class="media-body">
+                                <a href=""><h2 class="media-heading">用户124582<span class="viper level"><img src="/img/icon/vip_level.png" alt=""></span></h2></a>
+                                <span class="datetime">5分钟前</span>
+                                <div class="invitation_comment">
+                                    <p>希望帮帮忙</p>
+                                </div>
+                            </div>
+                            <div class="media-right"><span class="floor">1L</span></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-push-10 col-xs-2 text-right"><span>回复</span></div>
+                        </div>
+                        <hr/>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="row"><span class="label live_orange">卡友生活</span></div>
-        <hr/>
+    </div>
+    <!-- /header -->
+    <div id="header" class="header">
+        <?=include('menu.html')?>
     </div>
 </body>
 
 </html>
 <script type="text/javascript" src="./js/all.js"></script>
+<script type="text/javascript" src="js/dropdown.js"></script>

@@ -1,3 +1,8 @@
+/*预设*/
+span{font-size: 1.4em;color:#7C7C7C;}
+p{font-size: 1.3em;color:#7C7C7C;}
+h1{font-size: 3em;}
+h2{font-size: 1.6em;}
 #personinfo_main {
  height: 180px;padding: 20px;background: url(../img/linkback.jpg)center center no-repeat;background-size: cover;}
 #personinfo_main a{color: #fff;}

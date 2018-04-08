@@ -13,6 +13,11 @@
 			$(this).addClass('active');
 		}
 	});
+	// action点击切换
+	function returnUrl(href){
+		var unum = href.lastIndexOf('/');
+		return href.substring(unum+1);
+	};
 	// newsimg轮播
 	var banimgs = $('.section .secmain #newsimg ul li');
 	var count =1;
@@ -26,11 +31,6 @@
 		}
 		//alert(count);
 	}
-	// action点击切换
-	function returnUrl(href){
-		var unum = href.lastIndexOf('/');
-		return href.substring(unum+1);
-	};
 
 	// 随机切换look
 	function changebackimg(){
@@ -39,5 +39,6 @@
 		//alert(bimgUrl);
 		$('#look').css("background-image",bimgUrl);
 	}
+
 
 });
