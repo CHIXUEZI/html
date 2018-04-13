@@ -1,10 +1,12 @@
 *{margin:0;padding:0;}
-#header_main{position: fixed;bottom: 0;left: 0;padding:20px 10px 5px 10px;z-index: 999;background: #fff;box-shadow: -2px 0px 5px #47494C;}
-#header_main ul{width: 100%;}
-#header_main ul li{float: left;width: 20%;text-align: center;}
-#header_main ul li a{display:block;}
-#header_main ul li a:checked{text-decoration: none;}
-#header_main ul li p{color: #4B4B4B;}
-#header_main ul li a .blue{color:#0084FF;}
+.menu_css{position: fixed;bottom: 0;left: 0;padding:20px 10px 5px 10px;z-index: 999;background: #fff;box-shadow: -2px 0px 5px #47494C;}
+.menu_css ul{width: 100%;}
+.menu_css ul li{float: left;text-align: center;}
+/* .usual_menu 主界面菜单*/
+.menu_css .usual_menu li{float: left;width: 20%;text-align: center;}
+.menu_css ul li a{display:block;}
+.menu_css ul li a:checked{text-decoration: none;}
+.menu_css ul li p{color: #4B4B4B;}
+.menu_css ul li a .blue{color:#0084FF;}
 .level{display:inline-block;padding: 5px;border-radius: 5px;margin: 15px 0 0 5px;color:#fff;font-size: 1em;}
 
