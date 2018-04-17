@@ -9,14 +9,13 @@
     <meta name="keywords" content="">
     <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="http://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/jquery.mobile-events.min.js"></script>
     <link rel="stylesheet" type="text/css" href="./css/usual.css">
     <link rel="stylesheet" type="text/css" href="./css/all.css">
-    <link rel="stylesheet" type="text/css" href="./css/home.css"> 
+    <link rel="stylesheet" type="text/css" href="./css/home.css">
 </head>
 
 <body>
-    
     <!-- 论坛头部信息 -->
     <div class="container-fluid">
         <div class="row">
@@ -39,20 +38,19 @@
     <div id="invitation">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-xs-12" id="invitation_main">
+                <div class="col-xs-12 invitation_main">
                     <ul class="nav nav-tabs nav-justified">
                         <li role="presentation" class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><img src="/img/icon/quanbu.png" alt="">全部<span class="caret"></span></a>
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="index.html" target="_self" role="button" aria-haspopup="true" aria-expanded="false"><img src="/img/icon/quanbu.png" alt="">全部<span class="caret"></span></a>
                             <ul class="dropdown-menu list-group">
-                                <li role="presentation" class="col-xs-12 text-center list-group-item"><a href="">卡友求助</a></li>
-                                <li role="presentation" class="col-xs-12 text-center list-group-item"><a href="">卡友生活</a></li>
-                                <li role="presentation" class="col-xs-12 text-center list-group-item"><a href="">卡友经验</a></li>
-                                <li role="presentation" class="col-xs-12 text-center list-group-item"><a href="">自由贸易</a></li>
-                                <li role="presentation" class="col-xs-12 text-center list-group-item"><a href="">灌水区</a></li>
+                                <li role="presentation" class="col-xs-12 text-center list-group-item"><a target="_self" href="index.html">卡友生活</a></li>
+                                <li role="presentation" class="col-xs-12 text-center list-group-item"><a target="_self" href="index.html">卡友经验</a></li>
+                                <li role="presentation" class="col-xs-12 text-center list-group-item"><a target="_self" href="index.html">自由贸易</a></li>
+                                <li role="presentation" class="col-xs-12 text-center list-group-item"><a target="_self" href="index.html">灌水区</a></li>
                             </ul>
                         </li>
-                        <li role="presentation"><a href=""><img src="/img/icon/jingpin.png" alt="">精品</a></li>
-                        <li role="presentation"><a href=""><img src="/img/icon/xiaoxi.png" alt="">消息</a></li>
+                        <li role="presentation"><a target="_self" href="index_boutique.html"><img src="/img/icon/jingpin.png" alt="">精品</a></li>
+                        <li role="presentation"><a href="index_message.html" target="_self"><img src="/img/icon/xiaoxi.png" alt="">消息</a></li>
                     </ul>
                 </div>
             </div>
@@ -62,7 +60,7 @@
         <div class="container-fluid">
             <!-- 广告页 -->
             <div class="row">
-                <div class="col-xs-12" id="ad_main">
+                <div class="paddusal" id="ad_main">
                     <a href="" class="media">
                         <div class="media-left">
                             <a class="ad_imgBox" href=""><img class="ad_img" src="/img/yonghu1.png" class="media-object"></a>
@@ -78,15 +76,24 @@
                             </div>
                         </div>
                         <span class="label label-info ad_label fs20px">广告</span>
-                        <hr/>
                     </a>
+                </div>
+            </div>
+            <!-- 论坛置顶消息内容 -->
+            <div class="row">
+                <div class="paddusal message_main">
+                    <div class="list-group">
+                        <a href="" class="list-group-item"><span class="tip inform">置顶</span>您有一条新消息需要查看<span class="date">2018-04-12</span></a>
+                        <a href="" class="list-group-item"><span class="tip inform">置顶</span>必看!论坛管理规则!<span class="date">2018-04-12</span></a>
+                        <a href="" class="list-group-item"><span class="tip inform">置顶</span>您有一条新消息需要查看<span class="date">2018-04-12</span></a>
+                    </div>
                 </div>
             </div>
             <!-- 论坛帖子详情 -->
             <div class="row">
-                <div class="col-xs-12" id="invitation_body">
+                <div class="invitation_body">
                     <ul class="media-list">
-                        <li class="media">
+                        <li class="media paddusal borderstyle">
                             <div class="media-left">
                                 <a class="userimgBox" href=""><img class="userimg" src="/img/yonghu(2).jpg" class="media-object"></a>
                             </div>
@@ -97,16 +104,22 @@
                                     <a href="invicomment.html" target="_self">
                                         <h2>出门</h2>
                                         <p>也没有什么</p>
-                                        <div class="invitation_imgs">
-                                            <img class="invitation_img" src="/img/sucai/test1.jpg">
-                                            <img class="invitation_img" src="/img/sucai/test2.jpg">
-                                            <img class="invitation_img" src="/img/sucai/test3.jpg">
+                                        <div class="row">
+                                            <div class="col-xs-4">
+                                                <img class="invitation_img" src="/img/sucai/test1.jpg">
+                                            </div>
+                                            <div class="col-xs-4">
+                                                <img class="invitation_img" src="/img/sucai/test2.jpg">
+                                            </div>
+                                            <div class="col-xs-4">
+                                                <img class="invitation_img" src="/img/sucai/test3.jpg">
+                                            </div>
                                         </div>
                                     </a>
                                 </div>
                             </div>
                             <div class="media-right">
-                                <div class="able able_praise"><img id="praise" src="/img/icon/praise.png"><span class="text-center count fs20px">3526</span>
+                                <div class="able able_praise"><img src="/img/icon/praise.png"><span class="text-center count fs20px">3526</span>
                                 </div>
                                 <div class="able">
                                     <a href="invicomment.html" target="_self"><img src="/img/icon/comment.png"><span class="text-center count fs20px">3526</span>
@@ -114,9 +127,8 @@
                                 </div>
                             </div>
                             <div class="row"><span class="label live_orange">卡友生活</span></div>
-                            <hr/>
                         </li>
-                        <li class="media">
+                        <li class="media paddusal borderstyle">
                             <div class="media-left">
                                 <a class="userimgBox" href=""><img class="userimg" src="/img/yonghu1.png" class="media-object"></a>
                             </div>
@@ -135,15 +147,14 @@
                                 </div>
                             </div>
                             <div class="media-right">
-                                <div class="able able_praise"><img id="praise" src="/img/icon/praise.png"><span class="text-center count fs20px">3526</span>
+                                <div class="able able_praise"><img src="/img/icon/praise.png"><span class="text-center count fs20px">3526</span>
                                 </div>
                                 <div class="able"><a href="invicomment.html" target="_self"><img src="/img/icon/comment.png"><span class="text-center count fs20px">3526</span>
                                     </a></div>
                             </div>
-                            <div class="row"><span class="label help_red">卡友求助</span></div>
-                            <hr/>
+                            <div class="row"><span class="label exper_green">卡友经验</span></div>
                         </li>
-                        <li class="media">
+                        <li class="media paddusal borderstyle">
                             <div class="media-left">
                                 <a class="userimgBox" href=""><img class="userimg" src="/img/yonghu.jpg" class="media-object"></a>
                             </div>
@@ -160,15 +171,14 @@
                                 </div>
                             </div>
                             <div class="media-right">
-                                <div class="able able_praise"><img id="praise" src="/img/icon/praise.png"><span class="text-center count fs20px">3526</span>
+                                <div class="able able_praise"><img src="/img/icon/praise.png"><span class="text-center count fs20px">3526</span>
                                 </div>
                                 <div class="able"><a href="invicomment.html" target="_self"><img src="/img/icon/comment.png"><span class="text-center count fs20px">3526</span>
                                     </a></div>
                             </div>
                             <div class="row"><span class="label exper_green">卡友经验</span></div>
-                            <hr/>
                         </li>
-                        <li class="media">
+                        <li class="media paddusal borderstyle">
                             <div class="media-left">
                                 <a class="userimgBox" href=""><img class="userimg" src="/img/head_img.jpg" class="media-object"></a>
                             </div>
@@ -185,15 +195,14 @@
                                 </div>
                             </div>
                             <div class="media-right">
-                                <div class="able able_praise"><img id="praise" src="/img/icon/praise.png"><span class="text-center count fs20px">3526</span>
+                                <div class="able able_praise"><img src="/img/icon/praise.png"><span class="text-center count fs20px">3526</span>
                                 </div>
                                 <div class="able"><a href="invicomment.html" target="_self"><img src="/img/icon/comment.png"><span class="text-center count fs20px">3526</span>
                                     </a></div>
                             </div>
                             <div class="row"><span class="label free_purprl">自由贸易</span></div>
-                            <hr/>
                         </li>
-                        <li class="media">
+                        <li class="media paddusal borderstyle">
                             <div class="media-left">
                                 <a class="userimgBox" href=""><img class="userimg" src="/img/yonghu1.png" class="media-object"></a>
                             </div>
@@ -210,22 +219,21 @@
                                 </div>
                             </div>
                             <div class="media-right">
-                                <div class="able able_praise"><img id="praise" src="/img/icon/praise.png"><span class="text-center count fs20px">3526</span>
+                                <div class="able able_praise"><img src="/img/icon/praise.png"><span class="text-center count fs20px">3526</span>
                                 </div>
                                 <div class="able"><a href="invicomment.html" target="_self"><img src="/img/icon/comment.png"><span class="text-center count fs20px">3526</span>
                                     </a></div>
                             </div>
                             <div class="row"><span class="label chat_bule">灌水区</span></div>
-                            <hr/>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
-    <!-- /header -->
+    <!-- menu -->
     <div id="header" class="header">
-     <?=include('menu.html')?>   
+        <?=include('menu.html')?>
     </div>
 </body>
 
@@ -233,9 +241,9 @@
 <script type="text/javascript" src="./js/all.js"></script>
 <script type="text/javascript" src="js/dropdown.js"></script>
 <script>
-    var html = '<li class="media"><div class="media-left"><a class="userimgBox" href=""><img class="userimg" src="/img/yonghu(2).jpg" class="media-object"></a></div><div class="media-body"><a href=""><h2 class="media-heading">用户124582<span class="viper level"><img src="/img/icon/vip_level.png" alt=""></span></h2></a><span class="datetime">5分钟前</span><div class="invitation_comment"><a href="invicomment.html" target="_self"><h2>出门</h2><p>也没有什么</p><div class="invitation_imgs"><img class="invitation_img" src="/img/sucai/test1.jpg"><img class="invitation_img" src="/img/sucai/test2.jpg"><img class="invitation_img" src="/img/sucai/test3.jpg"></div></a></div></div><div class="media-right"><div class="able able_praise"><img id="praise" src="/img/icon/praise.png"><span class="text-center count fs20px">3526</span></div><div class="able"><a href="invicomment.html" target="_self"><img src="/img/icon/comment.png"><span class="text-center count fs20px">3526</span></a></div></div><div class="row"><span class="label live_orange">卡友生活</span></div><hr/></li>';
-    // console.log(html);
-    // $('.usual_menu li').eq(2).click(function(){
-    //     $('.media-list').append(html);
-    // })
+var html = '<li class="media paddusal borderstyle"><div class="media-left"><a class="userimgBox" href=""><img class="userimg" src="/img/yonghu(2).jpg" class="media-object"></a></div><div class="media-body"><a href=""><h2 class="media-heading">用户124582<span class="viper level"><img src="/img/icon/vip_level.png" alt=""></span></h2></a><span class="datetime">5分钟前</span><div class="invitation_comment"><a href="invicomment.html" target="_self"><h2>出门</h2><p>也没有什么</p><div class="invitation_imgs"><img class="invitation_img" src="/img/sucai/test1.jpg"><img class="invitation_img" src="/img/sucai/test2.jpg"><img class="invitation_img" src="/img/sucai/test3.jpg"></div></a></div></div><div class="media-right"><div class="able able_praise"><img src="/img/icon/praise.png"><span class="text-center count fs20px">3526</span></div><div class="able"><a href="invicomment.html" target="_self"><img src="/img/icon/comment.png"><span class="text-center count fs20px">3526</span></a></div></div><div class="row"><span class="label live_orange">卡友生活</span></div></li>';
+// console.log(html);
+// $('.usual_menu li').eq(2).click(function(){
+//     $('.media-list').append(html);
+// })
 </script>

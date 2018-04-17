@@ -10,19 +10,17 @@ h1{font-size: 3em;}
 #signIn{height: 120px;}
 #signIn a{width:120px;height:50px;background:#E5AA25;line-height: 38px;font-size: 1.2em;}
 /*nav导航*/
-#invitation{background: #E8EFF8;}
-#invitation_main ul>li ul li a:hover{background: #E8EFF8;}
-#invitation_main ul li a .badge{background: #EA2000;}
+.invitation_main ul>li ul li a:hover{background: #E8EFF8;}
+.invitation_main ul li a .badge{background: #EA2000;}
 /*评论详情*/
-#invitation_body{padding: 0 30px;}
 .userimg,.userimgBox{width: 90px;height: 90px;}
-.userimgBox{border-radius: 50%;overflow: hidden;display: block;}
-#invitation_body .media{margin: 10px 0;}
-#invitation_body .media:first-of-type{margin-top: 20px;}
+.invitation_body .media{margin: 10px 0;}
+.invitation_body .media:first-of-type{margin-top: 20px;border-top:none;}
+.invitation_body .media{margin-top: 20px;}
 .count{display: inline-block;}
 .label{margin: 10px 0 0 15px;font-size: 1.6em;display: inline-block;}
 .able{height: 80px;margin-top: 20px;}
-.invitation_img{width: 100px;height: 100px;}
+.invitation_img{width:100%;}
 /*广告*/
 #ad_main>.media{display: block;padding: 20px 0 0 0;}
 #ad_body a{display: block;width: 100%;padding: 10px;overflow: hidden;}
@@ -31,3 +29,18 @@ h1{font-size: 3em;}
 .ad_imgBox{border-radius: 50%;overflow: hidden;display: block;}
 #ad_main .media-heading{line-height: 50px;}
 .ad_label{background: #47494B;}
+/*精品贴样式*/
+.boutique{display: block;width: 70px;height:70px;text-align: center;font-size: 55px;border-radius:10px;color: #fff;margin-top: 20px;}
+.boutique1{background: #EA2000;}
+.boutique2{background: #FFAA25;}
+.boutique3{background: #15C1F2;}
+.boutiqueorther{background: #4C4C4C;}
+/*消息栏目*/
+.message_main a{display:block;width: 100%;font-size: 2em;display: block;padding: 10px 0;border-left: none;border-right: none;}
+.message_main span{padding: 5px;display: inline-block;font-size: 1em;}
+.tip{border-radius: 10px;color: #fff;margin-right: 10px;}
+.inform{background-color: #83C0EF;}
+.reply{background-color: #16A05D;}
+.date{float: right;}
+.reply_p{background-color: rgba(181, 181, 183,0.5);line-height: 40px;padding: 10px;color: #000;font-size: 25px;}
+/*重置样式*/

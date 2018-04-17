@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1,miximum-scala=1,user-scalable=no">
+    <title>货卡之家消息</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/jquery.mobile-events.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/usual.css">
+    <link rel="stylesheet" type="text/css" href="./css/all.css">
+    <link rel="stylesheet" type="text/css" href="./css/home.css">
+</head>
+	<!-- 论坛头部信息 -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 col-xs-12" id="personinfo_main">
+                <div class="col-sm-8 col-xs-8 ">
+                    <a href="">
+                        <div class="col-xs-3" id="head_img"><img src="/img/head_img.jpg" alt="" id="per_img"></div>
+                        <div class="col-xs-9">
+                            <div id="name_level">
+                                <h1 class="per_niname">HK21<img src="/img/icon/vip_level.png" alt=""></h1></div>
+                            <p class="per_sign text-overflow lead">这位朋友很懒,没有留下什么...</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-3 col-xs-push-1 text-center" id="signIn"><a class="btn center-vertical" role="button" href="">签到</a></div>
+            </div>
+        </div>
+    </div>
+    <!-- 论坛帖子分类 -->
+    <div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 invitation_main">
+                    <ul class="nav nav-tabs nav-justified">
+                        <li role="presentation" class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><img src="/img/icon/quanbu.png" alt="">全部<span class="caret"></span></a>
+                            <ul class="dropdown-menu list-group">
+                                <li role="presentation" class="col-xs-12 text-center list-group-item"><a target="_self" href="index.html">卡友求助</a></li>
+                                <li role="presentation" class="col-xs-12 text-center list-group-item"><a target="_self" href="index.html">卡友生活</a></li>
+                                <li role="presentation" class="col-xs-12 text-center list-group-item"><a target="_self" href="index.html">卡友经验</a></li>
+                                <li role="presentation" class="col-xs-12 text-center list-group-item"><a target="_self" href="index.html">自由贸易</a></li>
+                                <li role="presentation" class="col-xs-12 text-center list-group-item"><a target="_self" href="index.html">灌水区</a></li>
+                            </ul>
+                        </li>
+                        <li role="presentation"><a target="_self" href="index_boutique.html"><img src="/img/icon/jingpin.png" alt="">精品</a></li>
+                        <li role="presentation"><a href="index_message.html" target="_self"><img src="/img/icon/xiaoxi.png" alt="">消息</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 消息列表组 -->
+    <div class="container-fluid">
+    	<div class="row">
+    		<div class="col-xs-12 message_main">
+    			<ul class="list-group">
+    				<li class="list-group-item"><a href="" ><span class="tip inform">公告</span>您有一条新消息需要查看<span class="date">2018-04-12</span></a></li>
+    				<li class="list-group-item"><a href="" ><span class="tip inform">公告</span>您有一条新消息需要查看<span class="date">2018-04-12</span></a></li>
+    				<li class="list-group-item"><a href="" ><span class="tip inform">公告</span>您有一条新消息需要查看<span class="date">2018-04-12</span></a></li>
+    				<li class="list-group-item"><p class="lead reply_p">出门了</p>
+                        <a href="invicomment.html" target="_self"><span class="tip reply">回复</span>我觉得不行<span class="date">2017-12-10</span></a></li>
+    				<li class="list-group-item"><p class="lead reply_p">出门了</p>
+                        <a href="invicomment.html" target="_self"><span class="tip reply">回复</span>这样可以<span class="date">2017-12-10</span></a></li>
+    				<li class="list-group-item"><p class="lead reply_p">出门了</p>
+                        <a href="invicomment.html" target="_self"><span class="tip reply">回复</span>+1<span class="date">2017-12-10</span></h2></a></li>
+    			</ul>
+    			
+    		</div>
+    	</div>
+    </div>
+    <!-- menu -->
+    <div id="header" class="header">
+        <?=include('menu.html')?>
+    </div>
+<body>
+</body>
+
+</html>
+<script type="text/javascript" src="./js/all.js"></script>
+<script type="text/javascript" src="js/dropdown.js"></script>

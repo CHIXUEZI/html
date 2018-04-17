@@ -17,3 +17,6 @@ a{font-size: 1.6em;color:#000;}
 .help_red{background: red;}
 .exper_green{background: green;}
 .free_purprl{background: purple;}
+.userimg,.userimgBox{width: 60px;height: 60px;}
+.userimgBox{border-radius: 50%;overflow: hidden;display: block;}
+.datatime{font-size: 1.2em;}

@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors 肖茹冰	
+ * @date    2018-04-15 13:08:57
+ */
+ /*预设*/
+span{font-size: 1.4em;color:#7C7C7C;}
+p{font-size: 1.3em;color:#7C7C7C;}
+h1{font-size: 2em;}
+.help-list .list-group-item{margin-top: 20px;box-shadow: 0 5px 10px #ECECEC; }
+/*新提问*/
+.help_nav a{font-size: 2em;}
+.help_nav a img{margin-right: 10px;}
+.search{margin: 10px 0;}
+.search .form-control,.search .btn{height: 50px;}
+.search .btn{font-size: 25px;width: 100%;}
+.help-btn,.help-btn:hover{font-size: 35px;width: 130px;text-align: right;padding:0 10px;background: url(../img/icon/helpcomment.png)10px center no-repeat;background-color: #0084FF;color: #fff;}
+.help-btn{margin-top:18px;float: right;}
+.help-state{display: inline-block;margin-top:40px;}
+.hot-list-h1,.help-count{margin-top: 25px;}
+.help-count{font-size: 1.2em;}
