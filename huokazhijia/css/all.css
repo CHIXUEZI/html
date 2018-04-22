@@ -1,3 +1,4 @@
+p{font-size: 1.3em;color:#7C7C7C;}
 *{margin:0;padding:0;}
 .menu_css{position: fixed;bottom: 0;left: 0;padding:20px 10px 5px 10px;z-index: 999;background: #fff;box-shadow: -2px 0px 5px #47494C;}
 .menu_css ul{width: 100%;}
