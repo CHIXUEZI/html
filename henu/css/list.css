@@ -1,0 +1,10 @@
+/*list页*/
+.list{min-height: 480px;}
+.list-content{margin-top: 10px;}
+.list-content-title{height: 32px;border-bottom: 2px solid #10474C;line-height: 32px;padding: 5px 0;color: #545454;}
+.list-icon{background: url(../images/icon/list-icon.png) center center no-repeat;}
+.list-content ul{width:850px;padding: 20px;margin:0 auto;}
+.list-content ul li{height: 80px;line-height: 50px;font-size: 1.5em;}
+.list-content ul li a{color: #565656;}
+.list-content ul li a:hover{color: #61926F;text-shadow: 0px 0px 2px #10646F;}
+.img-icon{vertical-align: middle;height: 32px;width: 40px; float: left;}

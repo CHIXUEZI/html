@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors 肖茹冰
+ * @date    2018-04-27 16:40:22
+ * @version $Id$
+ */
+ *{margin: 0;padding: 0;border:0;}
+ body,button, input, select, textarea {font: 12px/1 Tahoma, Helvetica, Arial, sans-serif; }
+ li{list-style: none;}
+ a{text-decoration: none;}
+ .auto{margin: 0 auto;}
+ .main-width{width: 1200px;}
+ /*head*/
+ .header{width: 100%;background: #10646F;overflow: hidden;}
+ /*head-img*/
+ .head-img{width: 1300px;;height: 198px;}
+ /*head-nav*/
+ .head-nav{background: #10474C;}
+ .head-nav-main ul{height: 70px;}
+ .head-nav-main ul li{width: 119px;float: left;text-align: center;line-height: 70px;border-left: 1px solid #10646F}
+ .head-nav-main ul li:last-of-type{width: 118px;border-right: 1px solid #10646F;}
+ .head-nav-main ul li a{color: #fff;font-size: 1.5em;display: block;font-weight: bold;}
+ .head-nav-main ul li a:hover{background: #062D32;}
+ /*footer*/
+ .footer{overflow: hidden;background: url(../images/headbg.png) repeat-x center center;border-top: 2px solid #B5B5B5;line-height: 30px;background-color: #032429;}
+#footer{text-align: center;padding: 10px 0;color:#fff;font-size:1.2em;}
+#footer a{color:#0089E1;display: inline; }
+#footer a:hover{color: #0089E1;}
+.i-logo{background: url(../images/logo.png) center center no-repeat;width: 50px;height: 33px;vertical-align: middle;}
+

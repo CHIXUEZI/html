@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors 杨志颖 (764000395@qq.com)
+ * @date    2018-04-27 19:29:30
+ * @version $Id$
+ */
+.main{
+	width: 100%; 
+	min-height: 480px;
+}
+.division{
+	background: #DCDCDC;
+	height: 45px;
+	width: 100%;
+}
+.content_box{
+	width: 1200px;
+	margin: 0 auto;
+}
+.location{
+	color: gray;
+}
+.title{
+	text-align: center;
+	font-size: 25px;
+	margin-top: 10px;
+}
+.line{
+	margin: 10px 0;
+	background: #10474C;
+	height: 2px;
+}
+.time{
+	text-align: center;
+	color: gray;
+	margin: 10px;
+}
