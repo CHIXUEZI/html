@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors 肖茹冰 (you@example.org)
+ * @date    2018-04-24 13:03:11
+ * @version $Id$
+ */
+ .discover_title{border-left: 10px solid #4C8CF5;padding-left: 20px;color: #959595;}
+ .icon-ul li{float: left;width: 25%;margin: 40px 0;}
+ .icon-ul li i{width:100%;height: 60px;display: block;}
+ .icon-ul li .discover-span{display: inline-block;width:100%;font-size: 1.5em;margin: 10px 0 10px 0;color:#595959;}
+ /*货卡商城*/
+ #goodsinfo{background: url(../img/icon/discovericon/goodsinfo.png)center center no-repeat;}
+ #newcar{background: url(../img/icon/discovericon/newcar.png)center center no-repeat;}
+ #sell-parts{background: url(../img/icon/discovericon/sellparts.png)center center no-repeat;}
+ #trailer{background: url(../img/icon/discovericon/trailer.png)center center no-repeat;}
+ #used-car{background: url(../img/icon/discovericon/usedcar.png)center center no-repeat;}
+ #choose-car{background: url(../img/icon/discovericon/choose-car.png)center center no-repeat;}
+ #sell-parts{background: url(../img/icon/discovericon/sell-parts.png)center center no-repeat;}
+ #addshanjia{background: url(../img/icon/discovericon/addshanjia.png)center center no-repeat;}
+ /*卡友服务*/
+ #driverjor{background: url(../img/icon/discovericon/driverjor.png)center center no-repeat;}
+ #carmaintain{background: url(../img/icon/discovericon/carmaintain.png)center center no-repeat;}
+ #kayouenjor{background: url(../img/icon/discovericon/kayouenjor.png)center center no-repeat;}
+ #platfromactive{background: url(../img/icon/discovericon/platfromactive.png)center center no-repeat;}
+ #buycar-counter{background: url(../img/icon/discovericon/buycar-counter.png)center center no-repeat;}
+ #road-condition{background: url(../img/icon/discovericon/road-condition.png)center center no-repeat;}
+ #recommend{background: url(../img/icon/discovericon/recommed.png)center center no-repeat;}
+ /*货卡资讯*/
+ #expose{background: url(../img/icon/discovericon/expose.png)center center no-repeat;}
+ #merchant-ranking{background: url(../img/icon/discovericon/merchant-ranking.png)center center no-repeat;}
+ #news{background: url(../img/icon/discovericon/news.png)center center no-repeat;}
+ #ychehche{background: url(../img/icon/discovericon/ychehche.png)center center no-repeat;}
+ /*卡友必备*/
+ #serialnumbel{background: url(../img/icon/discovericon/serialnumbel.png)center center no-repeat;}
+ #waybill{background: url(../img/icon/discovericon/waybill.png)center center no-repeat;}
+ #trading-record{background: url(../img/icon/discovericon/trading-record.png)center center no-repeat;}
+ .kayouessential{margin-bottom: 60px;}

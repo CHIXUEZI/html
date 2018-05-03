@@ -1,0 +1,27 @@
+/*路况查询.css*/
+/*搜索框 search-road*/
+.search-road{margin:10px 0;}
+.search-road input,.search-road .btn{height: 50px;font-size: 1.5em;}
+.search-road .btn{width: 100%;}
+ /*预设*/
+span{font-size: 1.4em;color:#7C7C7C;}
+p{font-size: 1.3em;color:#7C7C7C;}
+h1{font-size: 2em;}
+.help-list .list-group-item{margin-top: 20px;box-shadow: 0 5px 10px #ECECEC; }
+/*新提问*/
+.help_nav a{font-size: 2em;}
+.help_nav a img{margin-right: 10px;}
+.search{margin: 10px 0;}
+.search .form-control,.search .btn{height: 50px;}
+.search .btn{font-size: 25px;width: 100%;}
+.help-btn,.help-btn:hover{font-size: 35px;width: 130px;text-align: right;padding:0 10px;background: url(../img/icon/helpcomment.png)10px center no-repeat;background-color: #0084FF;color: #fff;}
+.help-btn{margin-top:18px;float: right;}
+.help-state{display: inline-block;margin-top:40px;}
+.hot-list-h1,.help-count{margin-top: 25px;}
+.help-count{font-size: 1.2em;}
+/*热门*/
+.help-item ul li:last-of-type{margin-bottom: 110px;}
+.help-hot-list li:last-of-type{margin-bottom: 120px;}
+/*查看更多*/
+.road-condition_more{background: #4C8CF5;}
+.road-condition_more a{color: #fff;}

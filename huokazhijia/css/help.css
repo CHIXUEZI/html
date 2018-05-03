@@ -13,10 +13,13 @@ h1{font-size: 2em;}
 .help_nav a{font-size: 2em;}
 .help_nav a img{margin-right: 10px;}
 .search{margin: 10px 0;}
-.search .form-control,.search .btn{height: 50px;}
+.search .form-control,.search .btn{height: 50px;font-size: 1.5em;}
 .search .btn{font-size: 25px;width: 100%;}
 .help-btn,.help-btn:hover{font-size: 35px;width: 130px;text-align: right;padding:0 10px;background: url(../img/icon/helpcomment.png)10px center no-repeat;background-color: #0084FF;color: #fff;}
 .help-btn{margin-top:18px;float: right;}
 .help-state{display: inline-block;margin-top:40px;}
 .hot-list-h1,.help-count{margin-top: 25px;}
 .help-count{font-size: 1.2em;}
+/*热门*/
+.help-item ul li:last-of-type{margin-bottom: 110px;}
+.help-hot-list li:last-of-type{margin-bottom: 120px;}

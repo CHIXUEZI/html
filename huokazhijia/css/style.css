@@ -95,9 +95,9 @@ input[type="search"],
 input[type="tel"],
 textarea {
   border: none;
-  font-size: 1.4rem;
-  height: 20px;
-  line-height: 20px;
+  font-size: 2em;
+  height: 50px;
+  line-height: 50px;
   padding: 5px;
   color: #333333;
   font-family: "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", "宋体", Arial, Verdana, sans-serif;
@@ -111,7 +111,7 @@ textarea {
   outline: none;
   border: none;
   resize: none;
-  height: 90px;
+  height: 400px;
   width: 100%;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -153,31 +153,33 @@ textarea:-ms-input-placeholder {
 .publish-article-content {
   padding: 15px;
   background: #fff;
-  border: 1px solid #ccc;
 }
 .publish-article-content .article-content {
-  height: 200px;
+  height: 1000px;
   border-bottom: 1px solid #ccc;
+  font-size: 1.8em;
 }
-.publish-article-content .footer-btn {
-  text-align: center;
-  padding-top: 10px;
-}
-.publish-article-content .footer-btn .upload-img {
+.publish-article-content .footer-btn .upload-img,.upload-emoji {
   display: inline-block;
   vertical-align: bottom;
-  width: 25px;
-  height: 20px;
+  width: 40px;
+  height: 30px;
   margin-right: 10px;
+}
+.publish-article-content .footer-btn .upload-img{
   background: url(../img/icon/imageurl.png) 0 no-repeat;
   background-size: 100%;
+
 }
-.publish-article-content .footer-btn .upload-emoji {
-  display: inline-block;
-  vertical-align: bottom;
-  width: 25px;
-  height: 20px;
-  margin-right: 10px;
+.upload-emoji {
   background: url(../img/icon/facesmile.png) 0 no-repeat;
   background-size: 100%;
 }
+.publish-article-btn{float: left;padding: 20px;font-size: 1.5em;}
+/*botton*/
+.editor_button input{height: 80px;color: #fff;font-size: 2em;border-radius: 10px;background: #0385FF;margin:30px 10px 0 0;}
+/*eidtor_span*/
+.editor_span ul li{float: left;margin-left: 20px;height: 60px;line-height: 50px;color: #fff;}
+.editor_span_item{display: block;padding: 5px 20px;font-size: 1.8em;border: 1px solid #fff;border-radius: 50px;background: #959595;cursor: pointer;}
+.editor_active{background: #4C8CF5;box-shadow: 0 0 10px #4C8CF5;}
+.editor_button{margin-bottom: 120px;}

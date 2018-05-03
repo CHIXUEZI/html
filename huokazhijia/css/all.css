@@ -1,22 +1,29 @@
 p{font-size: 1.3em;color:#7C7C7C;}
 *{margin:0;padding:0;}
-.menu_css{position: fixed;bottom: 0;left: 0;padding:20px 10px 5px 10px;z-index: 999;background: #fff;box-shadow: -2px 0px 5px #47494C;}
-.menu_css ul{width: 100%;}
-.menu_css ul li{float: left;text-align: center;}
-/* .usual_menu 主界面菜单*/
-.menu_css .usual_menu li{float: left;width: 20%;text-align: center;}
-.menu_css ul li a{display:block;}
-.menu_css ul li a:checked{text-decoration: none;}
-.menu_css ul li p{color: #4B4B4B;}
-.menu_css ul li a .blue{color:#0084FF;}
-.level{display:inline-block;padding: 5px;border-radius: 5px;margin: 15px 0 0 5px;color:#fff;font-size: 1em;}
-.paddusal{padding: 10px 30px;}
-.borderstyle{box-shadow: 0 10px 10px #ECECEC;}
-/*弹出评论*/
+/*loading*/
+.loading{width: 100%;height: 100%;position: fixed;top: 0; left: 0; z-index: 1000;background: #fff;}
+.loading .pic{width: 180px; height: 152px; background: url(../img/icon/loading.gif); position: absolute;top: 0;bottom: 0;left: 0;right: 0;margin: auto;}
+/*签到*/
+.signIn{height: 120px;}
+.signIn a{width:120px;height:50px;background:#E5AA25;line-height: 38px;font-size: 1.2em;}
+/*头部用户*/
+.userheading {height: 180px;padding: 20px;background: url(../img/linkback.jpg)center center no-repeat;background-size: cover;}
+.userheading a{color: #fff;}
+.user_img{width: 130px;height: 130px;border-radius: 50%;display: block;margin: 0 auto;vertical-align: middle;}
+.userheading span{font-size: 1.4em;color:#7C7C7C;}
+.userheading h1{font-size: 3em;}
+/*精品贴样式*/
+.boutique{display: block;text-align: center;font-size: 45px;border-radius:10px;color: #fff;margin-top: 20px;}
+.boutique1{background: #EA2000;}
+.boutique2{background: #FFAA25;}
+.boutique3{background: #15C1F2;}
+.boutiqueorther{background: #4C4C4C;}
+.media-list li:last-of-type{margin-bottom: 120px;}
+.overflow_hidden{overflow: hidden;}
+/*弹出评论 求助页评论页都有使用*/
 .commentBox_back{width: 100%;height: 100%;position: fixed;left: 0;top: 0;z-index: 9997;background-color: rgba(0,0,0,.5);display: none;}
-.commentBox{width:100%;position: fixed;bottom: 0;left: 0;z-index: 9999;display: none;}
+.commentBox{width:100%;position: fixed;top: 0;left: 0;z-index: 9999;display: none;}
 .Input_Box {
-	height: 260px;
 	border: 1px solid #ccc;
 	transition: border linear .2s, box-shadow linear .5s;
 	-moz-transition: border linear .2s, -moz-box-shadow linear .5s;
@@ -32,21 +39,18 @@ p{font-size: 1.3em;color:#7C7C7C;}
 	box-shadow: 0 0 5px #ccc;
 }
 .Input_Box textarea {
-/*	width: 485px;*/
 text-indent: 2em;height: 201px;
  	padding: 15px; 
 	outline: none;
 	resize: none;
-	font: 23px "微软雅黑", Arial, Helvetica, sans-serif;
+	font: 30px "微软雅黑", Arial, Helvetica, sans-serif;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
 	font-size: 1.2em;
 }
 .Input_Foot {
-/*	width: 100%;*/
-	height: 55px;
-	border-top: 1px solid #ccc;
+	height: 56px;
 	background-color: #fff;
 	-moz-border-radius: 0 0 5px 5px;
 	-webkit-border-radius: 0 0 5px 5px;
@@ -57,14 +61,10 @@ text-indent: 2em;height: 201px;
 	width: 50px;
 	height: 50px;
 	float: left;
-	cursor: pointer
-}
-.imgBtn:active {
+	cursor: pointer;
 	margin-top: 9px;
 }
-.imgBtn:hover {
-	background-position: 0 -31px
-}
+.imgBtn img{width: 50px height:50px;}
 .postBtn {
 	float: right;
 	color: #808080;
@@ -83,10 +83,7 @@ text-indent: 2em;height: 201px;
 	padding: 10px 20px 6px 20px;
 }
 .faceDiv {
-/*	width: 500px;*/
-/*	height: 120px;*/
 	border-top: 1px solid #ccc;
-	position: absolute;
 	background-color: #fff;
 	-moz-border-radius: 5px 5px 0 0;
 	-webkit-border-radius: 5px 5px 0 0;
@@ -96,8 +93,8 @@ text-indent: 2em;height: 201px;
 	border: 1px solid #ccc;
 	float: left;
 	position: relative;
-	width: 50px;
-	height: 50px;
+	width: 70px;
+	height: 70px;
 	padding: 3px 3px 3px 3px;
 	cursor: pointer;
 }
@@ -107,9 +104,3 @@ text-indent: 2em;height: 201px;
 .faceDiv>img:active {
 	padding: 4px 3px 2px 3px;
 }
-/*精品贴样式*/
-.boutique{display: block;width: 70px;height:70px;text-align: center;font-size: 55px;border-radius:10px;color: #fff;margin-top: 20px;}
-.boutique1{background: #EA2000;}
-.boutique2{background: #FFAA25;}
-.boutique3{background: #15C1F2;}
-.boutiqueorther{background: #4C4C4C;}

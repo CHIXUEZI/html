@@ -1,4 +1,4 @@
-/**
+    /**
  * 移动端富文本编辑器
  * @author ganzw@gmail.com
  * @url    https://github.com/baixuexiyang/artEditor

@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors肖茹冰(you@example.org)
+ * @date    2018-04-24 19:14:58
+ * @version $Id$
+ */
+ .person-icon,.otherable{margin-bottom: 15px;}
+ .arrows{float: right;}
+/*用户功能*/
+.icon-ul li{float: left;width: 33.3%;margin: 30px 0;}
+.icon-ul li i{width:100%;height: 60px;display: block;}
+.icon-ul li span{display: inline-block;width:100%;font-size: 1.3em;margin: 10px 0 0 0;color:#595959;}
+#personinfo{background: url(../img/icon/personinfo.png)center center no-repeat;}
+#mymessage{background: url(../img/icon/mymessage.png)center center no-repeat;}
+#firendaction{background: url(../img/icon/firendaction.png)center center no-repeat;}
+/*功能列表*/
+.list-group{margin-bottom: 0;}
+.otherable ul li{border-left: none;border-right: none;padding: 30px;background: url(../img/icon/rightarrow.png)98% center no-repeat;}
+.otheritem-ul li i{width:50px;height: 48px;display: inline-block;vertical-align: middle;}
+.otheritem-ul li span{font-size: 1.3em;color: #545454;padding-left: 10px;}
+#myinvitation{background: url(../img/icon/myinvitation.png)center center no-repeat;}
+#myhelp{background: url(../img/icon/myhelp.png)center center no-repeat;}
+#mypraise{background: url(../img/icon/mypraise.png)center center no-repeat;}
+#mystore{background: url(../img/icon/mystore.png)center center no-repeat;}
+#mypower{background: url(../img/icon/mypower.png)center center no-repeat;}
+

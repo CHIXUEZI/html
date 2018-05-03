@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors肖茹冰
+ * @date    2018-05-02 15:54:58
+ * @version $Id$
+ */
+ /*预设*/
+span{font-size: 1.2em;color:#7C7C7C;}
+h1{font-size: 2.2em;}
+h2{font-size: 2em;}
+h3{font-size: 1.8em;}
+h4{font-size:1.6em;}
+h5{font-size: 1.4em;}
+ /*搜索框*/
+.search{margin: 10px 0;}
+.search .form-control,.search .btn{height: 50px;font-size: 1.5em;}
+.search .btn{font-size: 25px;width: 100%;}
+/*商家列表*/
+.media-list li:first-of-type{margin-top: 15px;}
+.media-right{width: 200px;height: 150px;overflow: hidden;}
+.merchant-img{width: 200px;}
+.merchant-name{padding: 15px 0;}
+.merchant-score{font-size: 60px;padding: 15px 0;color: #FF9800;}
+.media-list li:last-of-type{margin-bottom: 0px;}
