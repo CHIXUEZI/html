@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-05-03 14:37:49
+ * @version $Id$
+ */
+ *{margin: 0;padding: 0;}
+html,body{margin:0 auto;padding:0 auto;
+font-family:"Microsoft YaHei",微软雅黑,"Microsoft JhengHei",华文细黑,STHeiti,MingLiu,"SimSun",宋体;}
+a{text-decoration: none;}
+li{list-style: none;}
+/*public style*/
+.head,.nav{width: 100%;}
+.head_main{width: 1200px;}
+.head_main{margin: 0 auto;}
+/*.nav ul li{font-family:"SimSun",宋体;}*/
+/*head*/
+.head{background-color: #f5f5f5;}
+.chinese,.english{color: #A40000;float: right; margin: 10px 0 0 15px;}
+/*nav*/
+.nav{border-bottom: 2px solid #A40000;}
+.nav ul li,.navul{height: 40px;}
+.navul,.navul ul,.nav{background: #E9EBE8;color: #585450;}
+.navul{width:1200px;}
+.navul,.navul ul{margin: 0 auto;}
+.nav_li{width: 157.5px;float: left;}
+.li_long{width: 255px;}
+.nav_li>a{text-align: center;}
+.navul>li{line-height: 40px;}
+.navul li a{display: block; color: #000;font-size: 1em;color:#585450;}
+.navul li:hover{background: #323232;}
+.navul li a:hover{color: #fff;}
+.nav_li ul{width: 200px;text-align: left;}
+.navul>li>ul{position: relative;top: 0px;left: 0;display: none;z-index: 1;}
+.navul li ul li{font-size: .9em;padding: 0 10px 0 30px;}
+.navul .nav_img,.nav_img img{width: 40px;background: #fff;}
