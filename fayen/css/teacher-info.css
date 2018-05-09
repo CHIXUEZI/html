@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors肖茹冰(you@example.org)
+ * @date    2018-05-09 21:20:04
+ * @version $Id$
+ */
+ /* content_right */
+.teacher_self,.self_content{height: 210px;font-size: 1.2em;}
+.teacher_self{width: 100%;background:rgba(229, 199, 199,0.3)}
+.teacher_self img{max-width: 251px;max-height: 210px;margin-right:9px;}
+.self_content{width: 680px;float:right;}
+.self_content h3{line-height: 80px;}
+.teacher_table{width: 100%;}
+.teacher_table h4{color: #A40000;}
+.teacher_table table .leibie{width: 15%;text-align: center;font-size: 22px;}
+.teacher_table table .table_content{border-left: 1px solid #535353;line-height:25px;padding-left: 10px;font-size: 19px;}

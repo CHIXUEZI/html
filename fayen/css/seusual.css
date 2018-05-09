@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/**
+ * 
+ * @肖茹冰(you@example.org)
+ * @date    2018-05-07 16:09:28
+ * @version $Id$
+ */
+
+/*所有二三级页面通用*/
+ body{background-color: #dcd9d2;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='88' height='24' viewBox='0 0 88 24'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='autumn' fill='%23e6c8c8' fill-opacity='0.31'%3E%3Cpath d='M10 0l30 15 2 1V2.18A10 10 0 0 0 41.76 0H39.7a8 8 0 0 1 .3 2.18v10.58L14.47 0H10zm31.76 24a10 10 0 0 0-5.29-6.76L4 1 2 0v13.82a10 10 0 0 0 5.53 8.94L10 24h4.47l-6.05-3.02A8 8 0 0 1 4 13.82V3.24l31.58 15.78A8 8 0 0 1 39.7 24h2.06zM78 24l2.47-1.24A10 10 0 0 0 86 13.82V0l-2 1-32.47 16.24A10 10 0 0 0 46.24 24h2.06a8 8 0 0 1 4.12-4.98L84 3.24v10.58a8 8 0 0 1-4.42 7.16L73.53 24H78zm0-24L48 15l-2 1V2.18A10 10 0 0 1 46.24 0h2.06a8 8 0 0 0-.3 2.18v10.58L73.53 0H78z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");}
+ .look,.content{width: 1200px;}
+/*content*/
+.content{overflow: hidden;background-color:#E9EBE8;}
+.content_left{width: 340px;float: left;}
+.content_left_title{height: 50px;line-height: 50px;background: #A40000;color: #fff;}
+.content_left_title h2{border-left: 20px solid #A8996E;padding: 0 10px;}
+.content_left ul li {height: 50px;line-height: 50px;text-align: right;background: url(../images/listitem.png) 300px center no-repeat;}
+.content_left ul li a{display: block;color: #535353;border-bottom: 1px dashed #A0A0A0;font-size: 1.3em;padding:0 45px 0 0;}
+.content_left ul li a:hover{color: #EC6841;}
+.content_left ul li .content_act{background: url(../images/listitem_choose.png) 300px center no-repeat;color: #A40000;background-color: #fff;}
+/*content_right page*/
+.content_right{width:840px;float: right;overflow: hidden;padding: 10px 10px 50px 10px;background: #fff;}
+.page{text-align: right;padding:0 10px;}
+.page font,.page a{color:#EB6101; }
+.page span,.page a{margin: 0px 10px;}

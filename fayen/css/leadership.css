@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-05-09 14:42:15
+ * @version $Id$
+ */
+.leader h1{text-align: center;line-height: 50px;}
+.leader1{width: 100%;margin-top: 40px;overflow: hidden;}
+.leader-item{width: 400px;padding: 10px;float: left;}
+.leader-item a{width:300px;height:400px;margin: 0 auto;overflow: hidden;display: block;padding: 0px;}
+.leader-img{height: 350px;overflow: hidden;	}
+.leader-img img{min-width:300px;max-width: 300px;margin:0 auto;}
+.leader-name{height: 80px;text-align:center;color: #565656;line-height: 25px;background: #545454;color: #fff;}
+.leader-name:hover{background: #A40000;transform: translate(0,-25px);transition:transform  .6s;}

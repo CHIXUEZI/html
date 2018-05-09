@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-05-07 14:46:14
+ * @version $Id$
+ */
+ 
+/*listitem专用*/
+.content_right{float: right;}
+.color{border-top: 50px solid #878787;}
+.content_right ul{padding: 10px;}
+.content_li{padding: 30px 0;}
+.content_li{width: 100%;border-bottom: 1px dashed #A0A0A0;}
+.content_li a{color: #000;font-size: 1.1em;display: inline-block;}
+.content_li,.li_img,.li_img img{height: 100px;}
+.li_img{width: 150px;overflow: hidden;float: left;}
+.li_img{min-height: 80px;}
+.li_text{width: 625px;float: right;}
+.li_text h3{line-height: 30px;}
+.li_text p{position: relative; line-height: 20px; max-height: 40px;overflow: hidden;}
+.li_text p::after{content: "..."; position: absolute; bottom: 0; right: 0;padding: 0 0px 0 0;background: -webkit-linear-gradient(left, transparent, #fff 55%);
+background: -o-linear-gradient(right, transparent, #fff 55%);
+background: -moz-linear-gradient(right, transparent, #fff 55%);
+background: linear-gradient(to right, transparent, #fff 55%);}
+.li_text p,.li_text span{color: #858585;cursor: pointer;}
+.li_text span{display: inline-block;line-height: 15px;}
+.content_li a:hover{color: #A40000;}
