@@ -7,10 +7,10 @@
  */
  .tec-spices{border-bottom: 5px double #A40000;display: inline-block;text-align: center;line-height: 45px;padding-left: 48px;background: url(../images/tec-title.png)left center no-repeat;}
 .leader1{width: 100%;margin-top: 20px;overflow: hidden;}
-.leader-item{width: 260px;float: left;margin: 10px;}
-.leader-item a{height:350px;overflow: hidden;display: block;padding: 0px;}
-.leader-img{height: 295px;overflow: hidden;	margin:0 auto;}
-.leader-img,.leader-img img{width: 260px;background:#DFD4CF;}
-.leader-name{height: 85px;text-align:center;color: #565656;line-height: 25px;background: #545454;color: #fff;}
+.leader-item{width: 200px;float: left;margin: 15px 40px;}
+.leader-item a{height:280px;overflow: hidden;display: block;padding: 0px;}
+.leader-img{height: 225px;overflow: hidden;	margin:0 auto;}
+.leader-img,.leader-img img{width: 200px;background:#DFD4CF;}
+.leader-name{height: 90px;text-align:center;color: #565656;line-height: 25px;background: #545454;color: #fff;}
 .leader-item:hover{box-shadow: 0 0 5px #E5C7C7;}
-.leader-name:hover{background: #A40000;transform: translate(0,-30px);transition:transform  .6s;}
+.leader-name:hover{background: #A40000;transform: translate(0,-35px);transition:transform  .6s;}

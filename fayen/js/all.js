@@ -23,5 +23,25 @@
         var unum = href.lastIndexOf('/');
         return href.substring(unum+1);
     };
+    //浮动工具栏
+    $('.floatool ul li').hover(function () {
+        $(this).children('.tool-hide').addClass('active');
+    },function () {
+        $(this).children('.tool-hide').removeClass('active');
+    });
+    //回到顶部
+    var up = $('.up');
+    up.hide();
+    $(window).scroll(function() {
+        if($(this).scrollTop()>100){
+            up.fadeIn();
+        }else {
+            up.fadeOut();
+        }
+    });
+    up.click(function() {
+        $('html,body').animate({scrollTop:0},500);
+        return false;
+    });
 });
 

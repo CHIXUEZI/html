@@ -10,6 +10,9 @@ html,body{margin:0 auto;padding:0 auto;
 font-family:"Microsoft YaHei",微软雅黑,"Microsoft JhengHei",华文细黑,STHeiti,MingLiu,"SimSun",宋体;}
 a{text-decoration: none;}
 li{list-style: none;}
+body{width:100%;
+background-color: #dcd9d2;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='88' height='24' viewBox='0 0 88 24'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='autumn' fill='%23e6c8c8' fill-opacity='0.31'%3E%3Cpath d='M10 0l30 15 2 1V2.18A10 10 0 0 0 41.76 0H39.7a8 8 0 0 1 .3 2.18v10.58L14.47 0H10zm31.76 24a10 10 0 0 0-5.29-6.76L4 1 2 0v13.82a10 10 0 0 0 5.53 8.94L10 24h4.47l-6.05-3.02A8 8 0 0 1 4 13.82V3.24l31.58 15.78A8 8 0 0 1 39.7 24h2.06zM78 24l2.47-1.24A10 10 0 0 0 86 13.82V0l-2 1-32.47 16.24A10 10 0 0 0 46.24 24h2.06a8 8 0 0 1 4.12-4.98L84 3.24v10.58a8 8 0 0 1-4.42 7.16L73.53 24H78zm0-24L48 15l-2 1V2.18A10 10 0 0 1 46.24 0h2.06a8 8 0 0 0-.3 2.18v10.58L73.53 0H78z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");}
 .width-main{width: 1200px;}
 .auto{margin: 0 auto;}
 /*public style*/
@@ -45,6 +48,21 @@ li{list-style: none;}
 .link_main ul li a:hover{color: #A40000;}
 /*footer*/
 .footer{overflow: hidden;border-top: 2px solid #B5B5B5;line-height: 30px;background-color: #A40000;}
-#footer{text-align: center;padding: 10px 0;color:#fff;font-size:1.2em;}
-#footer a{color:#0089E1;display: inline; }
-#footer a:hover{color: #0089E1;}
+.footer div{text-align: center;padding: 10px 0;color:#fff;font-size:1.2em;}
+.footer div a{color:#0089E1;display: inline; }
+.footer div a:hover{color: #0089E1;}
+/*floattool*/
+.floatool{position: fixed;right: 0;bottom: 100px;z-index: 99999;}
+.floatool ul li{;background: rgba(0,0,0,.5);margin-bottom: 2px;overflow: hidden;}
+.floatool ul li:hover{background: rgba(164, 0, 0,.8);}
+.floatool ul li a{display: block;width: 80px;height: 80px;background-size: 48px;}
+.wechat{background: url(../images/wechat.png)center center no-repeat;}
+.telephone{background: url(../images/telephone.png)center center no-repeat;}
+.up{background: url(../images/up.png)center center no-repeat;    -moz-transition:background 1s;
+    -webkit-transition:background 1s;
+    -o-transition:background 1s;}
+.wechat-img{position: absolute;right: 80px;top: -70px;overflow: hidden;}
+.telephone-num{position: absolute;right: 80px;top: 82px;padding: 0 10px;background: rgba(164, 0, 0,.8);height: 80px;line-height: 80px;color: #fff;}
+.wechat-img img{width: 150px;height: 150px;}
+.hidden{display: none;}
+.active{display: block;}

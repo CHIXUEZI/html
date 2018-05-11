@@ -12,11 +12,28 @@
     <link rel="stylesheet" type="text/css" href="css/usual.css">
     <link rel="stylesheet" type="text/css" href="css/seusual.css">
     <link rel="stylesheet" type="text/css" href="css/listitem.css">
+    <link rel="stylesheet" type="text/css" href="css/aos.css">
     <link rel="shortcut icon" href="images/bitbug_favicon.ico" />
     <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
 </head>
 
 <body>
+    <!-- 右侧工具栏 -->
+    <div class="floatool">
+        <ul>
+            <li>
+                <a class="wechat" href=""></a>
+                <div class="tool-hide hidden wechat-img"><img src="images/fxy.jpg" alt=""></div>
+            </li>
+            <li><a class="telephone" href=""></a>
+                    <div class="tool-hide hidden telephone-num">
+                        <h2>0371-22866490</h2>
+                    </div>
+                </li>
+            <li><a class="up" href=""></a></li>
+        </ul>
+    </div>
+    <!-- 头部标题 -->
     <div class="head">
         <div class="head_main width-main auto">
             <a href="http://fxy.henu.edu.cn/" class="chinese">中文版</a><a href="index.html" class="english">English</a>
@@ -72,7 +89,7 @@
         </div>
         <div class="content_right">
             <ul>
-                <li class="content_li">
+                <li class="content_li" aos="fade-left">
                     <a href="content.html">
                         <div class="li_img"><img src="images/01.jpg" alt=""></div>
                         <div class="li_text">
@@ -82,7 +99,7 @@
                         </div>
                     </a>
                 </li>
-                <li class="content_li">
+                <li class="content_li" aos="fade-left">
                     <a href="">
                         <div class="li_img"><img src="images/01.jpg" alt=""></div>
                         <div class="li_text">
@@ -92,7 +109,7 @@
                         </div>
                     </a>
                 </li>
-                <li class="content_li">
+                <li class="content_li" aos="fade-left">
                     <a href="">
                         <div class="li_img"><img src="images/01.jpg" alt=""></div>
                         <div class="li_text">
@@ -102,7 +119,7 @@
                         </div>
                     </a>
                 </li>
-                <li class="content_li">
+                <li class="content_li" aos="fade-left">
                     <a href="">
                         <div class="li_img"><img src="images/01.jpg" alt=""></div>
                         <div class="li_text">
@@ -112,7 +129,7 @@
                         </div>
                     </a>
                 </li>
-                <li class="content_li">
+                <li class="content_li" aos="fade-left">
                     <a href="">
                         <div class="li_img"><img src="images/01.jpg" alt=""></div>
                         <div class="li_text">
@@ -122,7 +139,7 @@
                         </div>
                     </a>
                 </li>
-                <li class="content_li">
+                <li class="content_li" aos="fade-left">
                     <a href="">
                         <div class="li_img"><img src="images/01.jpg" alt=""></div>
                         <div class="li_text">
@@ -136,8 +153,8 @@
         </div>
     </div>
     <!-- footer -->
-    <div class="footer">
-        <div class="auto" id="footer" style="width: 500px">
+    <div class="footer" >
+        <div class="auto" style="width: 500px">
             <div class="footerA">
                 <span>Copyright © 2018 Henan University School Of Law
                 </span></br>
@@ -149,3 +166,10 @@
 
 </html>
 <script type="text/javascript" src="js/all.js"></script>
+<script type="text/javascript" src="js/aos.js"></script>
+<script>
+AOS.init({
+    easing: 'ease-out-back',
+    duration: 1000
+});
+</script>

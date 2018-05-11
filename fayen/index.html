@@ -10,11 +10,28 @@
     <link rel="stylesheet" type="text/css" href="css/bannerStyle.css">
     <link rel="stylesheet" type="text/css" href="css/usual.css">
     <link rel="stylesheet" type="text/css" href="css/home.css">
+    <link rel="stylesheet" type="text/css" href="css/aos.css">
     <link rel="shortcut icon" href="images/bitbug_favicon.ico" />
     <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
 </head>
 
 <body>
+    <!-- 右侧工具栏 -->
+    <div class="floatool">
+        <ul>
+            <li>
+                <a class="wechat" href=""></a>
+                <div class="tool-hide hidden wechat-img"><img src="images/fxy.jpg" alt=""></div>
+            </li>
+            <li><a class="telephone" href=""></a>
+                    <div class="tool-hide hidden telephone-num">
+                        <h2>0371-22866490</h2>
+                    </div>
+                </li>
+            <li><a class="up" href=""></a></li>
+        </ul>
+    </div>
+    <!-- 头部标题 -->
     <div class="head">
         <div class="head_main">
             <a href="http://fxy.henu.edu.cn/" class="chinese">中文版</a><a href="index.html" class="english">English</a>
@@ -80,7 +97,7 @@
     <div class="content-body long-content">
         <!-- 条列 -->
         <div class="tab width-main auto">
-            <div class="dtgg tab_main">
+            <div class="dtgg tab_main"  aos="fade-up-left">
                 <div class="tab_title">
                     <h4>Least News </h4>
                     <a href="listitem.html"><img src="images/more.png" alt=""></a>
@@ -112,7 +129,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="jwgg tab_main">
+            <div class="jwgg tab_main"  aos="fade-up">
                 <div class="tab_title">
                     <h4>Academic and Reseach Activitives</h4>
                     <a href="listitem.html"><img src="images/more.png" alt=""></a>
@@ -144,7 +161,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="xsgg tab_main">
+            <div class="xsgg tab_main"  aos="fade-up-right">
                 <div class="tab_title">
                     <h4>University  Life</h4>
                     <a href="listitem.html"><img src="images/more.png" alt=""></a>
@@ -180,7 +197,7 @@
     </div>
     <!-- link -->
     <div class="link">
-        <div class="link_main">
+        <div class="link_main" aos="fade-down">
             <ul>
                 <li><a href="">This is links</a></li>
                 <li><a href="">This is links</a></li>
@@ -198,8 +215,8 @@
         </div>
     </div>
     <!-- footer -->
-    <div class="footer">
-        <div class="auto" id="footer" style="width: 500px">
+    <div class="footer" >
+        <div class="auto" style="width: 500px">
             <div class="footerA">
                 <span>Copyright © 2018 Henan University School Of Law
                 </span></br>
@@ -223,5 +240,12 @@ $(function() {
         fullWidth: "on",
         forceFullWidth: "on"
     });
+});
+</script>
+<script type="text/javascript" src="js/aos.js"></script>
+<script>
+AOS.init({
+    easing: 'ease-out-back',
+    duration: 1000
 });
 </script>
