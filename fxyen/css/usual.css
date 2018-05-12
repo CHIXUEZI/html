@@ -62,7 +62,8 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     -webkit-transition:background 1s;
     -o-transition:background 1s;}
 .wechat-img{position: absolute;right: 80px;top: -70px;overflow: hidden;}
-.telephone-num{position: absolute;right: 80px;top: 82px;padding: 0 10px;background: rgba(164, 0, 0,.8);height: 80px;line-height: 80px;color: #fff;}
+.telephone-num{width: 150px;position: absolute;right: 80px;top: 82px;padding: 0 10px;background: rgba(164, 0, 0,.8);height: 80px;line-height: 80px;color: #fff;}
+.telephone-num h2{display: inline;}
 .wechat-img img{width: 150px;height: 150px;}
 .hidden{display: none;}
 .active{display: block;}

@@ -21,6 +21,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .content_left ul li .content_act{background: url(../images/listitem_choose.png) 300px center no-repeat;color: #A40000;background-color: #fff;}
 /*content_right page*/
 .content_right{width:840px;float: right;overflow: hidden;padding: 10px 10px 50px 10px;background: #fff;}
-.page{text-align: right;padding:0 10px;}
-.page font,.page a{color:#EB6101; }
-.page span,.page a{margin: 0px 10px;}
+.page{text-align: center;margin-top: 20px;}
+.previous,.next{display: block;width: 120px ;height:50px;line-height: 50px;background-color: #A40000;	color: #fff;font-size: 1.2em;border-radius: 5px;background-repeat: no-repeat;background-size: 25px;}
+.previous{float: left;background-image: url(../images/previous.png);background-position: 5px center; }
+.next{float:right;background-image: url(../images/next.png);background-position: 95px center;}

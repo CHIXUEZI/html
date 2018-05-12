@@ -5,6 +5,8 @@
  * @date    2018-05-03 14:38:05
  * @version $Id$
  */
+ /*隐藏的changeimg*/
+ .changeimg,.changetitle{display: none;}
  /*public style*/
 .banner{width: 100%;}
 .content-body{background: #DCD9D2;}
@@ -15,8 +17,9 @@
 .tab_main:first-of-type{margin-left:0px;}
 .tab_main{float: left;width:390px;margin-left:15px;font-size: 1.2em;}
 .tab_main ul{margin-top: 10px;}
-.tab_main ul li{min-height:40px;line-height:20px;border-bottom: 1px solid #CED1D6;padding:10px 0}
-.tab_main ul li font{float: right;margin-right:10px;}
+.tab_main ul li{min-height:40px;line-height:20px;border-bottom: 1px solid #CED1D6;padding:10px 5px}
+.Atitle p{width: 380px;}
+.Atitle p,.Btitle p{text-overflow: ellipsis;overflow: hidden;white-space: nowrap;}
 .tab_main ul li>a{color: #000;}
 .tab_main ul li font,.tab_main ul li>a,.title{font-size: 1em;}
 .tab_main ul li:hover,.tab_main ul li>a:hover,.title a:hover{background: #fff;color: #EB6101;}
