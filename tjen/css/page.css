@@ -1,0 +1,340 @@
+.wrap{
+	background:url(../images/topbg.gif) repeat-x;}
+/*header*/
+.header{
+	height: 130px;
+	background: url(../images/head.png) center no-repeat ;}
+.header h1{
+	text-indent: -999px;}
+/*nav*/
+.nav{
+	background-color: #00457E;
+	height: 109px;
+	position: relative; 
+	border-radius:0px 0px 5px 5px;}
+.nav>li{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #001C31;}
+.nav .ulnext{
+	margin-top: 29px;
+}
+.nav li a{
+	color: #FFF;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 10px 22px;}
+.nav>li>a:hover{
+	background-color: #035AA2;}
+.navCon_xy{
+	 width: 1050px;	 
+	position:absolute;
+	 top:35px; 
+	 left:0px;
+	 z-index:1; 
+	background:#176CC7;
+	 display: none;}
+.navCon_xy li{
+	text-align: right;
+	float: right;
+	line-height:35px;
+	height:35px;
+}
+.navCon_xy li a{
+	  font-weight:normal;
+	  padding: 10px;}
+.nav .ulnext .navCon_xy li:hover{
+		border-top:2px solid  #6CA1DC; 
+		border-bottom: none;
+}
+.navCon_xy li:hover{
+		border-bottom:2px solid  #6CA1DC; 
+}
+.navCon_xy li a:hover{
+
+	color: #FFAA25;}
+
+/*banner*/
+.banner{
+	height: 110px;
+	margin-bottom: 10px;}
+.banner img{
+	width: 100%;
+	height: 110px;}
+
+/*newsPic-notice*/
+.newsPic-notice{
+	height: 230px;}
+.newsPic{
+	width: 49%;
+	height: 230px;
+	background: #FFF;
+	position: relative;}
+.picShow{
+	height: 190px;
+	border-top: 3px solid #00457E;}
+
+
+.notice{
+	width: 50%;
+	background: #FFF;
+	border-radius:5px;
+	background-color:#F0F0F0;}
+.notice ul li span{ float:right;padding-right:5px;}
+.notice .title , .notice .title>a{
+	color: #E47211;}
+.notice>.notice_news{
+	height: 190px;
+	border-top: 3px solid #E47211;}
+
+
+/*news-Message*/
+.news-Message{
+	padding-top: 20px;}
+.newsList{
+	width: 49%;
+	background-color: #FFF;
+	border-radius:5px;
+	margin-right: 10px;
+	padding-bottom: 15px;
+	background-color:#F0F0F0;}
+.newsList>.notice_news{
+	border-top: 3px solid #00457E;}
+.newsList .title , .newsList .title>a , .Message .title , .Message .title>a{
+	color: #00457E;}
+.Message{
+	width: 29%;
+	background-color: #FFF;
+	padding-bottom: 15px;
+	border-radius:5px;
+	background-color:#F0F0F0;}
+.Message>.notice_news{
+	border-top: 3px solid #00457E;}
+.weChat{
+	width: 19%;
+	background-color: #FFF;
+	/*box-shadow: 5px 5px 5px #ccc;*/
+	height: 190px;
+	border:1px dashed #DBDBDB;
+	border-radius:5px;}
+.weChat img{
+	width: 100%;
+	height: 190px;}
+
+/*picture*/
+.picture{
+	height: 160px;
+	margin-top: 20px;}
+
+.picture li{
+	float:left;
+	margin-right:7px;
+	display:inline;
+	width:158px;
+	text-align:center;
+	line-height:19px
+;}
+.picture img{
+	width:136px;
+	height:100px;
+	padding:10px;
+	border:solid 1px #ddd;}
+
+
+.link{
+	height: 50px;
+	line-height: 50px;
+	background-color:#F0F0F0;}
+.link select{
+	width: 200px;
+	padding: 3px 20px;
+	margin-right: 20px;
+	border: 1px solid #7E7E7E;}
+.link select>option{
+	text-align: left;}
+/*.foot-wrap{
+	background-color: #4B4B4B;
+	height: 100px;
+}*/
+.foot{
+	height: 60px;
+	background-color: #00457E;
+	border-radius:5px;
+	margin-bottom:15px;}
+.foot p{
+	line-height: 30px;
+	color: #FFF;
+	text-align: center;
+	font-size: 12px;}
+
+/*------瀛愰〉闈㈡牱寮�--------*/
+
+/*瀵艰埅*/
+.containter{
+	width: 1040px;
+	margin: 0 auto;
+	border: 1px solid #DDDCD5;
+	overflow: hidden;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	padding: 5px;}
+.childNav{
+	width: 184px;
+	float: left;}
+.childNav-title{
+	height: 33px;
+	line-height: 33px;
+	border-top-left-radius: 10px;
+	background: url(../images/titleback.jpg) no-repeat;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFF;
+	text-align: center;}
+.childNav>ul{
+	width: 99%;
+	margin-top: 5px;
+	/*overflow: hidden;*/
+	background-color: #E6E6E6;
+	border-radius: 10px;
+	border: 1px solid #DDDCD5;
+	padding-bottom: 15px;}
+.childNav li{
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px solid #CDCDCD;
+	border-top: 1px solid #F6F6F6;
+	text-align: left;
+	padding-left:30px;}
+.childNav li:hover
+{
+	background-color: #DEDEDE;}
+.childNav li>a{
+	color: #002b5e;}
+.childNav>ul>li>a:before{
+	content: "";
+	display: inline-block;
+	width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid #333;
+    margin-right: 5px;}
+
+.childNav .childUl{
+	line-height: 30px;
+	border-bottom: 1px solid #CDCDCD;
+	border-top: 1px solid #F6F6F6;
+	text-align: left;
+	padding-left:15px;}
+.childNav .childUl>li{
+	list-style:disc inside;}
+
+.child-link{
+	margin-top: 15px;}
+.selectBox{
+	background-color: #E6E6E6;
+	border: 1px solid #DDDCD5;
+	border-radius: 5px;
+	padding: 5px;
+	margin-top: 10px;
+	height: 300px;
+	text-align: center;}
+.selectBox select{
+	margin-top: 10px;
+	height: 28px;
+	width: 144px;}
+.selectBox option{
+	height: 28px;
+	width: 104px;
+	display: block;
+	border-bottom: 1px dashed #CCC;}
+/*鍐呭*/
+.childCon{
+	width: 780px;
+	float: right;
+	padding: 0px 30px;}
+.childCon-title {
+	line-height: 40px;
+	border-bottom: 1px solid #CCC;}
+.childCon-title a{
+	color: #333;}
+.childCon h2{
+	font-size: 20px;
+	text-align: center;
+	line-height: 30px;
+	margin: 20px 0;}
+.childCon-text{
+	line-height: 25px;
+	color: #333;
+	text-align: justify;}
+.childCon-text table,table td,table tr,table th{
+	border: 1px solid #000;}
+.childCon-text>p{
+	margin-top: 15px;
+	text-indent: 2em;}
+.childCon-text img{
+	max-width: 100%;
+	/*height: 100px;*/
+	/*float: left;*/}
+.childCon .editTip{
+	font-size: 12px;
+	text-align: center;
+	color: #999;}
+.childCon-text>.news>li{
+	margin-left: 0;
+	list-style-type:circle;
+	height: 35px;
+	line-height: 35px;}
+.childCon-text>.news>li>a:hover{
+	color: #FCA90B;}
+
+.childCon-text table{
+	width:100% !important;}
+/*甯堣祫闃熶紞*/
+
+.teacherDetail
+{
+	margin-top:20px;}
+.Tphoto{
+	float:left;
+	border:1px solid #ddd;}
+.Tphoto img{
+	width:140px;
+	margin:4px;
+	height:190px;}
+.TInfo{
+	float:left;
+	margin-left:40px;	
+	font-size:14px;}
+
+.TInfo table tr{
+	height:22px;
+	line-height:22px;
+	font-size:13px;}
+
+.TInfo table th{
+	text-align:right;
+	font-weight:400;
+	border:0px;
+	padding-left:20px;}
+.TInfo table td{
+	padding-right:90px;
+	border:0px;}
+.teacherDetail .title{
+	line-height:35px;
+	height:35px;
+	color:#000099;
+	font-weight:bold;
+	margin-left:10px;}
+.teacherDetail .text{
+	font-size:14px;
+	line-height:25px;
+	margin-top:20px;
+	margin-left:10px;}
+.teacherDetail .text p{
+	text-align:justify;
+	text-indent:30px;
+	font-size:13px;
+	line-height:24px;}

@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-05-17 15:53:37
+ * @version $Id$
+ */
+ /*---------鍏叡灞炴€�---------*/
+.comWidth{ width:100%;}
+.mainWidth{width:1050px;margin-left:auto;margin-right: auto;}
+.left{float: left;}
+.right{float: right;}
+.clear{ clear: both;}
+/*---------妯″潡---------*/
+
+/*title澶撮儴*/
+.title{
+	width: 100%;
+	height: 35px;
+	line-height: 35px;}
+.title>span{
+	font-weight: bold;
+	font-weight: 15px;
+	margin-left: 10px;} 
+
+/*鏂伴椈鍒楄〃*/
+
+.news>li{
+	height: 28px;
+	line-height: 28px;
+	list-style: disc inside;
+	color: #00457E;
+	margin-left: 10px;
+	border-bottom:1px dotted #CCC;}
+.news>li>a{
+	color: #00457E;
+	font-size: 12px;}
+.news>li>span{
+	margin-right: 10px;}
+
+/*鍥剧墖杞挱*/
+.newsPic .pictureShow{
+	width:100%;
+	height:230px;
+	overflow:hidden;}
+.newsPic .pictureShow img{
+	width:100%;
+	height:230px;}
+.num{ position:absolute; bottom:10px; left:40%;}
+.num li{ background:url(../../images/former/img1.png) no-repeat; width:11px; height:12px; float:left; margin-right:10px; cursor: pointer;}
+.num .on{ background:url(../../images/former/num1.png) no-repeat;}

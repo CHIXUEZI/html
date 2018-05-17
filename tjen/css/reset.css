@@ -1,0 +1,13 @@
+
+@charset "utf-8";
+/* CSS Document */
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,table,td,img,div,dl,dt,dd{margin:0;padding:0;}
+body{font-family: "Microsoft YaHei",sans-serif;font-size: 14px;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+img{border:none;}
+li{list-style:none;}
+input,select,textarea{outline:none;}
+textarea{resize:none;}
+a{text-decoration:none;}
+a {outline: none;text-decoration: none;}  
+table{border-collapse:collapse;border-spacing:0;}
