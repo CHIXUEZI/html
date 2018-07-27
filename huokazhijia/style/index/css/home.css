@@ -1,0 +1,36 @@
+/*预设*/
+span{color:#7C7C7C;}
+/*nav导航*/
+.invitation_main ul>li ul li a:hover{background: #E8EFF8;}
+.invitation_main ul li a .badge{background: #EA2000;}
+/*评论详情*/
+.userimg,.userimgBox{width: 40px;height: 40px;}
+.invitation_body .media:first-of-type{margin-top: 15px;border-top:none;}
+.invitation_body .media{margin-top: 15px;}
+.count{display: inline-block;width: 32px;height: 32px;line-height: 32px;}
+.label{display: inline-block;margin:10px;}
+.able{margin-top: 10px;width: 50%;}
+.invitation_img{width:100%;}
+.index-item-img-box{overflow: hidden;}
+/*广告*/
+.ad_main>.media{display: block;padding: 20px 0 0 0;}
+.ad_body a{display: block;width: 100%;padding: 10px 0;overflow: hidden;}
+.ad_body a img{width: 100%;max-height: 250px;}
+.ad_img,.ad_imgBox{width: 40px;height: 40px;}
+.ad_imgBox{border-radius: 50%;overflow: hidden;display: block;}
+.ad_main .media-heading{line-height: 40px;}
+.ad_label{background: #858585;}
+/*精品贴样式*/
+.boutique{display: block;width: 30px;height:30px;text-align: center;font-size: 20px;border-radius:10px;color: #fff;margin-top: 20px;}
+.boutique1{background: #EA2000;}
+.boutique2{background: #FFAA25;}
+.boutique3{background: #15C1F2;}
+.boutiqueorther{background: #4C4C4C;}
+/*消息栏目*/
+.message_main a{width: 100%;display: block;border-left: none;border-right: none;}
+.message_main span{padding: 5px;display: inline-block;font-size: 1em;}
+.tip{border-radius: 10px;color: #fff;margin-right: 10px;}
+.inform{background-color: #83C0EF;}
+.reply{background-color: #16A05D;}
+.date{float: right;}
+.reply_p{background-color: rgba(181, 181, 183,0.5);padding: 10px;color: #000;}

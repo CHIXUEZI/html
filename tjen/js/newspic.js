@@ -4,9 +4,9 @@ $(document).ready(function() {
     $(".navCon_xy").hide();
     $(".nav li").hover(function() {
         $(this).children('ul').stop(false, true);
-        $(this).children("ul").slideDown("fast");
+        $(this).children("ul").fadeIn(200);;
     }, function() {
-        $(this).children("ul").slideUp(); /**/
+        $(this).children("ul").fadeOut(200);; /**/
         /*$(this).children("ul").slideDown();
 	},function(){
 		$(this).children("ul").hide();*/

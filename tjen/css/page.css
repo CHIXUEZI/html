@@ -37,21 +37,15 @@
 	background:#176CC7;
 	 display: none;}
 .navCon_xy li{
-	text-align: right;
-	float: right;
+	text-align: left;
+	float: left;
 	line-height:35px;
 	height:35px;
 }
 .navCon_xy li a{
 	  font-weight:normal;
 	  padding: 10px;}
-.nav .ulnext .navCon_xy li:hover{
-		border-top:2px solid  #6CA1DC; 
-		border-bottom: none;
-}
-.navCon_xy li:hover{
-		border-bottom:2px solid  #6CA1DC; 
-}
+
 .navCon_xy li a:hover{
 
 	color: #FFAA25;}
@@ -125,7 +119,7 @@
 
 /*picture*/
 .picture{
-	height: 160px;
+	height: 220px;
 	margin-top: 20px;}
 
 .picture li{
@@ -149,8 +143,7 @@
 	background-color:#F0F0F0;}
 .link select{
 	width: 200px;
-	padding: 3px 20px;
-	margin-right: 20px;
+	padding: 3px 10px;
 	border: 1px solid #7E7E7E;}
 .link select>option{
 	text-align: left;}
@@ -201,12 +194,16 @@
 	border: 1px solid #DDDCD5;
 	padding-bottom: 15px;}
 .childNav li{
-	height: 30px;
+	min-height: 30px;
 	line-height: 30px;
 	border-bottom: 1px solid #CDCDCD;
 	border-top: 1px solid #F6F6F6;
 	text-align: left;
-	padding-left:30px;}
+	padding-left:18px;
+}
+.childNav li a{
+	text-align: right;
+}
 .childNav li:hover
 {
 	background-color: #DEDEDE;}
@@ -244,7 +241,7 @@
 .selectBox select{
 	margin-top: 10px;
 	height: 28px;
-	width: 144px;}
+	width: 160px;}
 .selectBox option{
 	height: 28px;
 	width: 104px;
@@ -270,7 +267,8 @@
 	color: #333;
 	text-align: justify;}
 .childCon-text table,table td,table tr,table th{
-	border: 1px solid #000;}
+	margin-top: 20px;
+}
 .childCon-text>p{
 	margin-top: 15px;
 	text-indent: 2em;}
@@ -285,8 +283,8 @@
 .childCon-text>.news>li{
 	margin-left: 0;
 	list-style-type:circle;
-	height: 35px;
-	line-height: 35px;}
+	height: 50px;
+	line-height: 50px;}
 .childCon-text>.news>li>a:hover{
 	color: #FCA90B;}
 

@@ -4,16 +4,15 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="user-scalable=no">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0,user-scalable=no">
     <title>货卡之家消息</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
     <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/style/index/css/usual.css">
+    <link rel="stylesheet" type="text/css" href="/style/index/css/all.css">
+    <link rel="stylesheet" type="text/css" href="/style/index/css/home.css">
     <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="js/jquery.mobile-events.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="./css/usual.css">
-    <link rel="stylesheet" type="text/css" href="./css/all.css">
-    <link rel="stylesheet" type="text/css" href="./css/home.css">
 </head>
 
 <body>
@@ -24,39 +23,35 @@
     <!-- 用户头部信息 -->
     <div class="container-fluid">
         <div class="row">
-            <div class="col-xs-12 userheading">
-                <div class="row">
-                    <a href="#">
-                        <div class="col-xs-2 head_img"><img src="/img/head_img.jpg" alt="" class="user_img"></div>
-                        <div class="col-xs-7">
-                            <div id="name_level">
-                                <h1>HK21<img src="/img/icon/vip_level.png" alt=""></h1></div>
-                            <p class="per_sign text-overflow lead">这位朋友很懒,没有留下什么...</p>
-                        </div>
-                        <div class="col-xs-3 text-center signIn"><a class="btn center-vertical" role="button" href="#">签到</a></div>
-                    </a>
+            <div class="userheading">
+                <div class="col-xs-3 head_img"><img src="/style/index/img/head_img.jpg" alt="" class="user_img"></div>
+                <div class="col-xs-6">
+                    <div class="name_level">
+                        <a href="#"><h3>HK21<img class="vip-img" src="/style/index/img/icon/vip_level.png" alt=""></h3></a>
+                    </div>
+                    <p class="per_sign text-overflow">这位朋友很懒,没有留下什么...</p>
                 </div>
+                <div class="col-xs-3 text-center signIn"><a class="btn" role="button" href="#">签到</a></div>        
             </div>
         </div>
     </div>
     <!-- 论坛帖子分类 -->
-    <div>
+    <div id="invitation">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-xs-12 invitation_main">
-                    <ul class="nav nav-tabs nav-justified">
-                        <li role="presentation" class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><img src="/img/icon/quanbu.png" alt="">全部<span class="caret"></span></a>
+                <div class="invitation_main">
+                    <ul class="nav nav-tabs">
+                        <li role="presentation" class="dropdown col-xs-4">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="index.html" target="_self" role="button" aria-haspopup="true" aria-expanded="false"><img src="/style/index/img/icon/quanbu.png" alt="">全部<span class="caret"></span></a>
                             <ul class="dropdown-menu list-group">
-                                <li role="presentation" class="col-xs-12 text-center list-group-item"><a target="_self" href="index.html">卡友求助</a></li>
                                 <li role="presentation" class="col-xs-12 text-center list-group-item"><a target="_self" href="index.html">卡友生活</a></li>
                                 <li role="presentation" class="col-xs-12 text-center list-group-item"><a target="_self" href="index.html">卡友经验</a></li>
                                 <li role="presentation" class="col-xs-12 text-center list-group-item"><a target="_self" href="index.html">自由贸易</a></li>
                                 <li role="presentation" class="col-xs-12 text-center list-group-item"><a target="_self" href="index.html">灌水区</a></li>
                             </ul>
                         </li>
-                        <li role="presentation"><a target="_self" href="index_boutique.html"><img src="/img/icon/jingpin.png" alt="">精品</a></li>
-                        <li role="presentation"><a href="index_message.html" target="_self"><img src="/img/icon/xiaoxi.png" alt="">消息</a></li>
+                        <li role="presentation" class="col-xs-4"><a target="_self" href="index_boutique.html"><img src="/style/index/img/icon/jingpin.png" alt="">精品</a></li>
+                        <li role="presentation" class="col-xs-4"><a href="index_message.html" target="_self"><img src="/style/index/img/icon/xiaoxi.png" alt="">消息</a></li>
                     </ul>
                 </div>
             </div>
@@ -90,5 +85,5 @@
 </body>
 
 </html>
-<script type="text/javascript" src="./js/all.js"></script>
-<script type="text/javascript" src="js/dropdown.js"></script>
+<script type="text/javascript" src="/style/index/js/all.js"></script>
+<script type="text/javascript" src="/style/index/js/dropdown.js"></script>

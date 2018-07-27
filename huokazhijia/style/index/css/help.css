@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors 肖茹冰	
+ * @date    2018-04-15 13:08:57
+ */
+ /*预设*/
+span{color:#7C7C7C;}
+p{color:#7C7C7C;}
+.help-list .list-group-item{margin-top: 10px;box-shadow: 0 5px 10px #ECECEC; }
+/*新提问*/
+.help_nav li{width: 50%;}
+.help_nav a{font-size: 1.2em;}
+.help_nav a img{margin-right: 10px;}
+.search{margin: 10px 0;}
+.search .form-control,.search .btn{height: 40px;}
+.search .btn{width: 100%;}
+.help-btn,.help-btn:hover{width: 50%;text-align: center;background: url(../img/icon/helpcomment.png)15px center no-repeat;background-color: #0084FF;color: #fff;}
+.help-btn,.help-btn:hover,.help-state{font-size: 20px;height: 40px;}
+.help-btn,.help-state,.help-count{margin-top:10px;float: left;}
+.help-state,.help-count{line-height: 40px;text-align: center;background: #EFEFEF;}
+.help-count{font-size: 1.2em;}
+/*热门*/
+.help-item ul li:last-of-type{margin-bottom: 110px;}
+.help-hot-list li:last-of-type{margin-bottom: 120px;}

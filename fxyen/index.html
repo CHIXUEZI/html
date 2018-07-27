@@ -115,7 +115,7 @@
     var chimg = $('.changeimg img');
     var chtitle = $('.changetitle p');
     for (var i = 0; i < chimg.length; i++) {
-        $('.banner ul li img').eq(i).attr('src', chimg.eq(i).attr('src'));
+        $('.banner ul img').eq(i).attr('src', chimg.eq(i).attr('src'));
         var backimg_url = 'url(' + chimg.eq(chimg.length - 1).attr('src') + ')';
         $('#backimg').css('background-image', backimg_url);
         var text = chtitle.eq(i).html();
